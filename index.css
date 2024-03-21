@@ -1,0 +1,32 @@
+.header-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(Imagens/icons-header/fundo-index.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+}
+
+.header-index {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: auto;
+  text-align: center;
+}
+
+.header-index h2 {
+  font-size: 90px;
+  font-family: "Crimson Pro", serif;
+  margin: 0px;
+  color: white;
+}
+
+.header-index span {
+  font-family: "Salsa", cursive;
+  font-size: 30px;
+  color: #0d8bff;
+}
