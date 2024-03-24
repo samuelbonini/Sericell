@@ -18,7 +18,7 @@
   <header>
     <nav class="nav-bar">
       <div class="logo">
-        <h1><img src="Imagens/icons-header/sericell logo peq.svg" alt=""></h1>
+        <h1><img src="Imagens/icons-header/sericell logo peq.svg" alt="logo"></h1>
       </div>
 
       <div class="nav-list">
@@ -31,10 +31,25 @@
       </div>
 
       <div class="login-button">
-        
         <button><a href="#">Contato</a></button>
       </div>
+
+      <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><img class="icon" src="Imagens/icons-header/Navegação-icon.svg" alt="icon navegação"></button>
+      </div>
     </nav>
+
+    <div class="mobile-menu">
+      <ul>
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Placas Imobilárias</a></li>
+      </ul>
+      <div class="login-button">
+        <button><a href="#">Contato</a></button>
+      </div>
+    </div>
   </header>
 
   <main class="inicio-img">
@@ -45,8 +60,43 @@
     </div>
   </main>
 
+  <article>
+    <h1 class="frase-inicio">Transforme sua visão em sucesso tangível. É mais fácil do que você pensa</h1>
+  </article>
+
+  <section class="container-cards">
+    
+    <div class="card">
+      <div class="numero-card">01</div>
+      <div class="conteudo-card">
+        <h2 class="card-texto01">Compromisso com a excelência: Foco no Cliente</h2>
+        <img src="Imagens/icons-card/icon-01.svg" alt="Imagem-1">
+        <p class="conteudo-p">Nosso time se dedica a garantir excelência e qualidade em cada projeto, superando expectativas com compromisso inabalável e foco absoluto no melhor para nossos colaboradores.</p>
+      </div>
+    </div>
+
+    <div class="card destaque">
+      <div class="numero-card">02</div>
+      <div class="conteudo-card">
+        <h2 class="card-texto01">Experiência em Comunicação Visual</h2>
+        <img src="Imagens/icons-card/icon-02.svg" alt="Imagem-2">
+        <p class="conteudo-p">Com 26 anos de experiência, garantimos qualidade excepcional e agilidade no atendimento às necessidades dos clientes. Estamos sempre prontos para oferecer a solução que você precisa.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="numero-card">03</div>
+      <div class="conteudo-card">
+        <h2 class="card-texto01">Inovação Visual e Qualidade Duradoura</h2>
+        <img src="Imagens/icons-card/icon-03.svg" alt="Imagem-1">
+        <p class="conteudo-p">Destacamo-nos na indústria de comunicação visual e impressão pela inovação e qualidade duradoura. Comprometidos em oferecer soluções visuais impressionantes e duráveis.</p>
+      </div>
+    </div>
+
+  </section>
 
 
+
+  <script src="script.js"></script>
 </body>
-
 </html>

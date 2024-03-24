@@ -1,0 +1,58 @@
+.container-cards {
+  display: flex;
+  justify-content: center; /* Centraliza os cards horizontalmente */
+}
+
+.card {
+  width: 300px; /* largura do card */
+  height: 440px; /* altura do card */
+  background-color: #e8f4ff; /* cor de fundo do card */
+  border-radius: 10px; /* borda arredondada */
+  display: inline-block;
+  margin: 180px 28px; /* margem ao redor dos cards */
+  position: relative; /* posição relativa para o número */
+}
+
+.numero-card {
+  font-family: "Salsa", cursive;
+  color: #101518; /* cor do texto do número */
+  font-size: 30px; /* tamanho da fonte */
+  width: 50px; /* largura do número */
+  height: 50px; /* altura do número */
+  line-height: 50px; /* alinhamento vertical */
+  position: absolute; /* posição absoluta para o número */
+  top: -25px; /* metade do tamanho do número, para que metade do número fique dentro do card */
+  left: 50%; /* posiciona o número na metade do card */
+  transform: translateX(-50%); /* centraliza o número horizontalmente */
+}
+
+/* Estilo para o conteúdo do card */
+.conteudo-card {
+  padding: 30px; /* preenchimento interno */
+}
+
+/* Estilo para a imagem dentro do card */
+.conteudo-card img {
+  width: 140px; /* largura da imagem */
+  height: 140px; /* altura da imagem */
+  display: block; /* para centralizar a imagem */
+  margin: 0 auto 10px; /* margem inferior e centralização horizontal */
+}
+
+.card-texto01 {
+  font-family: "Salsa", cursive;
+  text-align: center; /* centraliza o texto */
+  width: 100%; /* ajusta a largura do texto para se ajustar ao card */
+  margin-bottom: 20px; /* margem inferior para separar a imagem */
+}
+
+.conteudo-p {
+  font-family: "Crimson Pro", serif;
+  text-align: center; /* centraliza o texto */
+  color: #485056;
+  font-size: 1.1rem;
+}
+
+.destaque {
+  margin-top: 150px;
+}

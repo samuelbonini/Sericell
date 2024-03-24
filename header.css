@@ -1,6 +1,7 @@
 header {
   background-color: #101518;
   box-shadow: 0px 3px 10px #464646;
+  
 }
 
 .nav-bar {
@@ -57,5 +58,52 @@ nav ul li:hover {
   transition: all 0.5s;
 }
 
+.mobile-menu-icon {
+  display: none;
+}
 
+.mobile-menu {
+  display: none;
+}
 
+@media screen and (max-width: 850px) {
+  .nav-bar {
+    padding: 1.5rem 4rem;
+  }
+  .nav-item {
+    display: none;
+  }
+  .login-button {
+    display: none;
+  }
+  .mobile-menu-icon {
+    display: block;
+  }
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .mobile-menu .nav-item {
+    display: block;
+    padding-top: 1.2rem;
+  }
+  .mobile-menu .login-button {
+    display: block;
+    padding: 1rem 2rem;
+  }
+
+  .mobile-menu .login-button button {
+    width: 100%;
+  }
+  .open {
+    display: block;
+  }
+}
