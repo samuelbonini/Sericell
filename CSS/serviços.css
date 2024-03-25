@@ -1,0 +1,63 @@
+/* Estilo para o contêiner principal */
+.servicos-container {
+  text-align: center; /* Centraliza o conteúdo */
+  max-width: 1200px; /* Largura máxima para centralização */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilo para os grupos de serviços */
+.servicos-grupo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px; /* Margem inferior para separar dos grupos */
+}
+
+/* Estilo para cada serviço */
+.servico {
+  width: calc(50% - 20px); /* 50% do tamanho menos a margem entre eles */
+}
+
+/* Estilo para o subtitulo */
+.servico .subtitulo {
+  font-size: 24px;
+  margin-bottom: 10px; /* Margem inferior para separar do parágrafo */
+  text-align: left; /* Alinha o texto no início */
+}
+
+/* Estilo para o conteúdo */
+.servico .conteudo {
+  display: flex;
+  align-items: center; /* Alinha itens verticalmente */
+}
+
+/* Estilo para o parágrafo */
+.servico .titulo {
+  margin-bottom: 10px; /* Margem inferior para separar do span */
+  text-align: left; /* Alinha o texto no início */
+}
+
+/* Estilo para a imagem */
+.servico .icone {
+  width: 50px; /* Largura da imagem */
+  margin-left: 10px; /* Margem esquerda para separar do texto */
+  vertical-align: middle; /* Alinha verticalmente com o texto */
+}
+
+/* Estilo para o span */
+.servico .info {
+  display: block; /* Para que o span ocupe a largura total */
+  font-style: italic; /* Texto em itálico */
+  color: #0d8bff; /* Cor azul */
+  padding-top: 10px; /* Espaçamento acima do span */
+  margin-top: -10px; /* Subindo o texto do span */
+  margin-bottom: 20px; /* Descendo a linha azul */
+  text-align: left; /* Alinha o texto no início */
+}
+
+/* Estilo para a linha divisória */
+.linha-divisoria {
+  width: 100%;
+  border-top: 1px solid #0d8bff; /* Cor azul */
+  margin: 20px 0; /* Margem superior e inferior */
+}
