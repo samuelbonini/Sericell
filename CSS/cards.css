@@ -1,6 +1,14 @@
+section {
+  max-width: 1200px;
+  margin: 0 auto; /* Centraliza horizontalmente */
+}
+
 .container-cards {
+  max-width: 1200px;
+  margin: 0 auto; /* Centraliza horizontalmente */
   display: flex;
   justify-content: center; /* Centraliza os cards horizontalmente */
+  
 }
 
 .card {

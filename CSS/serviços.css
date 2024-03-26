@@ -1,9 +1,12 @@
 /* Estilo para o contêiner principal */
 .servicos-container {
+  font-family: "Salsa", cursive;
   text-align: center; /* Centraliza o conteúdo */
   max-width: 1200px; /* Largura máxima para centralização */
-  margin: 0 auto; /* Centraliza horizontalmente */
+  margin: -100px auto; /* Centraliza horizontalmente */
   padding: 20px; /* Espaçamento interno */
+  font-size: 26px;
+  color: #13191D;
 }
 
 /* Estilo para os grupos de serviços */
@@ -20,11 +23,22 @@
 
 /* Estilo para o subtitulo */
 .servico .subtitulo {
-  font-size: 24px;
+  margin-top: 30px;
   margin-bottom: 10px; /* Margem inferior para separar do parágrafo */
   text-align: left; /* Alinha o texto no início */
 }
 
+.subtitulo {
+  font-family: "Crimson Pro", serif;
+  color: #0d8bff;
+  font-size: 26px;
+}
+
+.titulo {
+  font-family: "Crimson Pro", serif;
+  color: #485056;
+  font-size: 20px;
+}
 /* Estilo para o conteúdo */
 .servico .conteudo {
   display: flex;
@@ -39,7 +53,7 @@
 
 /* Estilo para a imagem */
 .servico .icone {
-  width: 50px; /* Largura da imagem */
+  width: 100px; /* Largura da imagem */
   margin-left: 10px; /* Margem esquerda para separar do texto */
   vertical-align: middle; /* Alinha verticalmente com o texto */
 }
@@ -48,7 +62,9 @@
 .servico .info {
   display: block; /* Para que o span ocupe a largura total */
   font-style: italic; /* Texto em itálico */
-  color: #0d8bff; /* Cor azul */
+  color: #919697; /* Cor azul */
+  font-style: italic;
+  font-size: 18px;
   padding-top: 10px; /* Espaçamento acima do span */
   margin-top: -10px; /* Subindo o texto do span */
   margin-bottom: 20px; /* Descendo a linha azul */
@@ -61,3 +77,57 @@
   border-top: 1px solid #0d8bff; /* Cor azul */
   margin: 20px 0; /* Margem superior e inferior */
 }
+
+.botao-1 {
+  background-color: #E8F4FF;
+}
+
+.botao-1 a {
+  color: #13191D;
+
+}
+
+.botao-2 {
+  background-color: #3d3d3d;
+}
+
+.botao-2 a {
+  color: #fff;
+
+}
+
+.servicos-button button {
+  align-items: center;
+  align-content: center;
+  font-family: "Salsa", cursive;
+  border: none;
+  box-shadow: 0px 1px 5px 0px #0d8bff;
+  padding: 12px 40px;
+  border-radius: 2px;
+  margin: 22px;
+}
+
+.servicos-button button a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.led {
+  background-color: #13191D;
+  margin: 130px 0px;
+  display: flex; /* Torna o div um flex container */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+.frase-led {
+  color: #fff;
+  padding: 30px 30px;
+  max-width: 1200px;
+  text-align: center;
+  font-family: "Salsa", cursive;
+}
+
+
+
+
