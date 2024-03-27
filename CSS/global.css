@@ -2,6 +2,7 @@
 @import url(index.css);
 @import url(cards.css);
 @import url(serviços.css);
+@import url(brilho.css);
 
 * {
   padding: 0;

@@ -1,0 +1,91 @@
+.brilho-moderno {
+  display: flex;
+  max-width: 1200px; /* Define uma largura máxima para o conteúdo */
+  background-color: #fff; /* Cor de fundo do contêiner */
+  border-radius: 10px; /* Borda arredondada */
+  
+}
+
+.brilho-text {
+  padding: 30px;
+  background-color: #e8f4ff;
+  border-radius: 5px;
+}
+
+.titulo-brilho {
+
+  font-family: "Salsa", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 36px;
+  color: #13191d;
+}
+
+.moderno-text {
+  color: #0d8bff;
+  font-size: 44px;
+}
+
+.text-brilho {
+  margin: 30px 0px 12px 0px;
+  max-width: 800px;
+  color: #13191D;
+  font-family: "Crimson Pro", serif;
+  font-size: 22px;
+}
+
+.brilho-moderno img {
+  max-width: 100%;
+}
+
+.info-brilho {
+  margin: 30px 0px;
+  color: #13191D;
+  font-family: "Crimson Pro", serif;
+  font-size: 22px;
+  color: #919697;
+  font-style: italic;
+}
+
+
+/* botões */
+
+
+.brilho-button {
+  margin: 30px -20px;
+}
+
+.botao-1 {
+  background-color: #E8F4FF;
+}
+
+.botao-1 a {
+  color: #13191D;
+
+}
+
+.botao-2 {
+  background-color: #3d3d3d;
+}
+
+.botao-2 a {
+  color: #fff;
+
+}
+
+.brilho-button button {
+  align-items: center;
+  align-content: center;
+  font-family: "Salsa", cursive;
+  border: none;
+  box-shadow: 0px 1px 5px 0px #0d8bff;
+  padding: 16px 44px;
+  border-radius: 2px;
+ margin: 22px;
+}
+
+.brilho-button button a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 2rem;
+}

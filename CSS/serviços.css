@@ -61,7 +61,6 @@
 /* Estilo para o span */
 .servico .info {
   display: block; /* Para que o span ocupe a largura total */
-  font-style: italic; /* Texto em itálico */
   color: #919697; /* Cor azul */
   font-style: italic;
   font-size: 18px;
@@ -71,12 +70,8 @@
   text-align: left; /* Alinha o texto no início */
 }
 
-/* Estilo para a linha divisória */
-.linha-divisoria {
-  width: 100%;
-  border-top: 1px solid #0d8bff; /* Cor azul */
-  margin: 20px 0; /* Margem superior e inferior */
-}
+/* Estilo para os botões */
+
 
 .botao-1 {
   background-color: #E8F4FF;
