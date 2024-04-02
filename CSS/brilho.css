@@ -1,6 +1,6 @@
 .brilho-moderno {
   display: flex;
-  max-width: 1200px; /* Define uma largura máxima para o conteúdo */
+  max-width: 1000px; /* Define uma largura máxima para o conteúdo */
   background-color: #fff; /* Cor de fundo do contêiner */
   border-radius: 10px; /* Borda arredondada */
   
@@ -15,7 +15,7 @@
 .titulo-brilho {
 
   font-family: "Salsa", cursive;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   font-size: 36px;
   color: #13191d;
@@ -42,7 +42,9 @@
   margin: 30px 0px;
   color: #13191D;
   font-family: "Crimson Pro", serif;
-  font-size: 22px;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 20px;
   color: #919697;
   font-style: italic;
 }

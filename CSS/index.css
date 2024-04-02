@@ -26,14 +26,16 @@
 }
 
 .inicio-index span {
-  font-family: "Salsa", cursive;
+   font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
   font-size: 30px;
   color: #0d8bff;
 }
 
 article {
   background-color: rgb(255, 255, 255);
-  width: 900px;
+  width: 700px;
   padding: 20px;
   border-radius: 5px;
   margin: -60px auto;
@@ -45,8 +47,10 @@ article {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 28px;
+  font-size: 24px;
   font-family: "Salsa", cursive;
-  color: #101518;
+  font-weight: 500;
+  font-style: normal;
+  color: #0f1a22;
 }
 

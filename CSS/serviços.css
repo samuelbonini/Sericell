@@ -1,12 +1,14 @@
 /* Estilo para o contêiner principal */
 .servicos-container {
   font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
   text-align: center; /* Centraliza o conteúdo */
   max-width: 1200px; /* Largura máxima para centralização */
   margin: -100px auto; /* Centraliza horizontalmente */
   padding: 20px; /* Espaçamento interno */
   font-size: 26px;
-  color: #13191D;
+  color: #220f1c;
 }
 
 /* Estilo para os grupos de serviços */
@@ -30,12 +32,21 @@
 
 .subtitulo {
   font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
   color: #0d8bff;
   font-size: 26px;
 }
 
 .titulo {
   font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   color: #485056;
   font-size: 20px;
 }
@@ -62,8 +73,10 @@
 .servico .info {
   display: block; /* Para que o span ocupe a largura total */
   color: #919697; /* Cor azul */
+  font-family: "Crimson Pro", serif;
+  font-weight: 300;
   font-style: italic;
-  font-size: 18px;
+  font-size: 20px;
   padding-top: 10px; /* Espaçamento acima do span */
   margin-top: -10px; /* Subindo o texto do span */
   margin-bottom: 20px; /* Descendo a linha azul */
@@ -72,14 +85,12 @@
 
 /* Estilo para os botões */
 
-
 .botao-1 {
-  background-color: #E8F4FF;
+  background-color: #e8f4ff;
 }
 
 .botao-1 a {
-  color: #13191D;
-
+  color: #13191d;
 }
 
 .botao-2 {
@@ -88,7 +99,6 @@
 
 .botao-2 a {
   color: #fff;
-
 }
 
 .servicos-button button {
@@ -109,7 +119,7 @@
 }
 
 .led {
-  background-color: #13191D;
+  background-color: #13191d;
   margin: 130px 0px;
   display: flex; /* Torna o div um flex container */
   justify-content: center; /* Centraliza o conteúdo horizontalmente */
@@ -118,11 +128,10 @@
 .frase-led {
   color: #fff;
   padding: 30px 30px;
-  max-width: 1200px;
+  max-width: 1000px;
   text-align: center;
-  font-family: "Salsa", cursive;
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
 }
-
-
-
-
