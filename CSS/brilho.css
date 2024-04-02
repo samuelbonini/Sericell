@@ -9,6 +9,7 @@
 .brilho-text {
   padding: 30px;
   background-color: #e8f4ff;
+  box-shadow: 0px 1px 10px #0d8aff5d;
   border-radius: 5px;
 }
 
@@ -54,7 +55,7 @@
 
 
 .brilho-button {
-  margin: 30px -20px;
+  margin: 30px -20px 0px;
 }
 
 .botao-1 {
@@ -87,6 +88,75 @@
 }
 
 .brilho-button button a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+
+
+/*IMOBILARIA*/ 
+
+.imobilaria {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+
+.imobilaria-container {
+  display: flex;
+  background-color: #E8F4FF; 
+  box-shadow: 0px 1px 10px #0d8aff5d;
+  max-width: 700px; 
+  padding: 30px;
+  color: #13191D;
+}
+
+.imobilaria-text {
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 22px;
+ 
+}
+
+/* botões */
+
+
+.imobilaria-button {
+margin: 30px 0px 0px 0px;
+}
+
+.botao-1 {
+  background-color: #E8F4FF;
+}
+
+.botao-1 a {
+  color: #13191D;
+
+}
+
+.botao-2 {
+  background-color: #3d3d3d;
+}
+
+.botao-2 a {
+  color: #fff;
+
+}
+
+.imobilaria-button button {
+  align-items: center;
+  align-content: center;
+  font-family: "Salsa", cursive;
+  border: none;
+  box-shadow: 0px 1px 5px 0px #0d8bff;
+  padding: 16px 44px;
+  border-radius: 2px;
+}
+
+.imobilaria-button button a {
   text-decoration: none;
   font-weight: 500;
   font-size: 2rem;

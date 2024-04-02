@@ -8,7 +8,6 @@
   margin: -100px auto; /* Centraliza horizontalmente */
   padding: 20px; /* Espaçamento interno */
   font-size: 26px;
-  color: #220f1c;
 }
 
 /* Estilo para os grupos de serviços */
@@ -79,7 +78,6 @@
   font-size: 20px;
   padding-top: 10px; /* Espaçamento acima do span */
   margin-top: -10px; /* Subindo o texto do span */
-  margin-bottom: 20px; /* Descendo a linha azul */
   text-align: left; /* Alinha o texto no início */
 }
 
@@ -109,7 +107,7 @@
   box-shadow: 0px 1px 5px 0px #0d8bff;
   padding: 12px 40px;
   border-radius: 2px;
-  margin: 22px;
+  margin: 30px 20px 0px;
 }
 
 .servicos-button button a {
@@ -120,7 +118,7 @@
 
 .led {
   background-color: #13191d;
-  margin: 130px 0px;
+  margin: 140px 0px 60px 0px;
   display: flex; /* Torna o div um flex container */
   justify-content: center; /* Centraliza o conteúdo horizontalmente */
 }
