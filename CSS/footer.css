@@ -1,0 +1,52 @@
+footer {
+  background-color: #0f1a22;
+  box-shadow: 0px 3px 10px #464646;
+  margin: 0px auto;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 6rem;
+}
+
+.logo-footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer-conteudo {
+  display: flex;
+  align-items: center;
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-footer {
+  color: #0d8bff;
+}
+
+.footer-sobre p {
+  margin: 3px;
+  color: #fff;
+}
+
+p a img {
+  padding: 4px;
+  margin: 4px;
+  width: 30px;
+  height: 30px;
+}
+
+.footer-span {
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  color: white;
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
