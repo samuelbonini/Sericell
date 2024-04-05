@@ -85,21 +85,26 @@
 
 .botao-1 {
   background-color: #e8f4ff;
+  cursor: pointer;
+ 
 }
 
-.botao-1 a {
+.botao-1 span {
   color: #13191d;
 }
 
 .botao-2 {
   background-color: #3d3d3d;
+  cursor: pointer;
+
 }
 
-.botao-2 a {
+.botao-2 span {
   color: #fff;
 }
 
 .servicos-button button {
+  display: inline-flex;
   align-items: center;
   align-content: center;
   font-family: "Salsa", cursive;
@@ -107,13 +112,22 @@
   box-shadow: 0px 1px 5px 0px #0d8bff;
   padding: 12px 40px;
   border-radius: 2px;
-  margin: 30px 20px 0px;
+  margin-right: 30px;
+  margin-top: 30px;
 }
 
-.servicos-button button a {
+
+
+.servicos-button button span {
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 2rem;
+   margin: 0px 0px 0px 5px;
+}
+
+.servicos-button img {
+  width: 30px;
+  height: 30px;
 }
 
 .led {

@@ -36,21 +36,36 @@ header {
   font-weight: 400;
 }
 
+/* BUTTON DO HEADER */
+
 .login-button button {
+  display: inline-flex;
+  align-items: center;
   font-family: "Salsa", cursive;
   border: none;
-  box-shadow: 0px 1px 5px 0px #0d8bff;
+  box-shadow: 0px 1px 5px 0px #485056;
   background-color: #3d3d3d;
   padding: 8px 10px;
   border-radius: 2px;
+  cursor: pointer;
 }
 
-.login-button button a {
+.login-button button span {
   text-decoration: none;
+  margin: 0px 0px 0px 5px;
   color: #fff;
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
+
+.login-button img {
+  width: 22px;
+  height: 22px;
+}
+
+/* BUTTON DO MENU */
+
+
 
 nav ul li:hover {
   transform: translateY(-5px);
@@ -76,6 +91,7 @@ nav ul li:hover {
   .nav-item {
     display: none;
   }
+  
   .login-button {
     display: none;
   }
@@ -101,6 +117,11 @@ nav ul li:hover {
   .mobile-menu .login-button {
     display: block;
     padding: 1rem 2rem;
+  }
+
+  .mobile-menu .login-button button {
+    align-items: center;
+    justify-content: center;
   }
 
   .mobile-menu .login-button button {

@@ -25,12 +25,12 @@ footer {
 }
 
 .text-footer {
-  color: #0d8bff;
+  color: #ffffff;
 }
 
 .footer-sobre p {
   margin: 3px;
-  color: #fff;
+  color: #0d8bff  ;
 }
 
 p a img {
@@ -50,3 +50,4 @@ p a img {
   font-weight: 400;
   font-style: normal;
 }
+
