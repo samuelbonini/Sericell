@@ -1,23 +1,29 @@
-section {
-  max-width: 1200px;
-  margin: 0 auto; /* Centraliza horizontalmente */
-}
-
 .container-cards {
-  max-width: 1000px;
+  max-width: auto;
   margin: 0 auto; /* Centraliza horizontalmente */
   display: flex;
   justify-content: center; /* Centraliza os cards horizontalmente */
-  
+  margin-top: 170px;
+  margin-bottom: 30px;
+}
+
+.card-destaque {
+  width: 300px; /* largura do card */
+  height: auto; /* altura do card */
+  background-color: #e8f4ff; /* cor de fundo do card */
+  border-radius: 10px; /* borda arredondada */
+  display: inline-block;
+  margin-top: -40px;
+  position: relative; /* posição relativa para o número */
 }
 
 .card {
   width: 300px; /* largura do card */
-  height: 440px; /* altura do card */
+  height: auto; /* altura do card */
   background-color: #e8f4ff; /* cor de fundo do card */
   border-radius: 10px; /* borda arredondada */
   display: inline-block;
-  margin: 180px 28px; /* margem ao redor dos cards */
+  margin: auto 30px;
   position: relative; /* posição relativa para o número */
 }
 
@@ -66,7 +72,5 @@ section {
   font-size: 1.1rem;
 }
 
-.destaque {
-  margin-top: 150px;
-}
+
 

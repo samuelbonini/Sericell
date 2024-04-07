@@ -1,6 +1,8 @@
 .brilho-moderno {
   display: flex;
+  justify-content: center; /* Centraliza os cards horizontalmente */
   max-width: 1000px; /* Define uma largura máxima para o conteúdo */
+  margin: 0 auto;
   background-color: #fff; /* Cor de fundo do contêiner */
   border-radius: 10px; /* Borda arredondada */
   
