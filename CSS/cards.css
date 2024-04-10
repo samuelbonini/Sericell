@@ -43,8 +43,12 @@
 }
 
 /* Estilo para o conteúdo do card */
+.conteudo-p {
+ padding: 30px;
+}
+
 .conteudo-card {
-  padding: 50px; /* preenchimento interno */
+  padding-top: 30px;
 }
 
 /* Estilo para a imagem dentro do card */
@@ -57,12 +61,13 @@
 
 .card-texto01 {
   font-family: "Salsa", cursive;
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 1.4rem;
   font-style: normal;
   color: #0f1a22;;
   text-align: center; /* centraliza o texto */
   width: 100%; /* ajusta a largura do texto para se ajustar ao card */
-  margin-bottom: 20px; /* margem inferior para separar a imagem */
+  margin-bottom: 30px; /* margem inferior para separar a imagem */
 }
 
 .conteudo-p {
