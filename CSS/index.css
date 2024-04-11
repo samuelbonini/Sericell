@@ -9,7 +9,6 @@
   background-repeat: no-repeat;
   width: 100%;
   height: 70vh;
-  
 }
 
 .inicio-index {
@@ -18,7 +17,6 @@
   justify-content: center;
   padding: auto;
   text-align: center;
-  
 }
 
 .inicio-index h2 {
@@ -29,7 +27,7 @@
 }
 
 .inicio-index span {
-   font-family: "Salsa", cursive;
+  font-family: "Salsa", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
@@ -55,7 +53,50 @@ article {
   font-weight: 500;
   font-style: normal;
   color: #0f1a22;
-
-
 }
 
+@media (max-width: 850px) {
+
+  .inicio-img {
+    height: 50vh;
+  }
+
+  .inicio-index h2 {
+    font-size: 60px;
+  }
+
+  .inicio-index span {
+    font-size: 20px;
+  }
+
+  article {
+   width: 500px;
+  }
+  
+  .frase-inicio {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .inicio-img {
+    height: 40vh;
+  }
+
+
+  .inicio-index h2 {
+    font-size: 54px;
+  }
+
+  .inicio-index span {
+    font-size: 16px;
+  }
+
+  article {
+   width: 360px;
+  }
+  .frase-inicio {
+    font-size: 16px;
+  }
+}
