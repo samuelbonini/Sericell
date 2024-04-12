@@ -100,3 +100,33 @@ article {
     font-size: 16px;
   }
 }
+
+@media (max-width: 600px) {
+
+  .inicio-img {
+    height: 30vh;
+  }
+
+
+  .inicio-index h2 {
+    font-size: 40px;
+    margin-top: 0.1rem;
+  }
+
+  .inicio-index span {
+    font-size: 12px;
+    margin-top: 0.1rem;
+  }
+
+  article {
+   width: 240px;
+   padding: 18px;
+
+   margin: -40px auto;
+
+  }
+
+  .frase-inicio {
+    font-size: 12px;
+  }
+}

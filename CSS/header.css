@@ -65,8 +65,6 @@ header {
 
 /* BUTTON DO MENU */
 
-
-
 nav ul li:hover {
   transform: translateY(-5px);
   transition: all 0.5s;
@@ -84,14 +82,21 @@ nav ul li:hover {
   border-bottom: 2px solid #0d8bff;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 853px) {
   .nav-bar {
-    padding: 1.5rem 4rem;
+    padding: 1.2rem 1.2rem;
+  
   }
   .nav-item {
     display: none;
   }
-  
+
+  .logo img {
+    justify-content: space-between;
+    padding: 0px;
+    width: 100px;
+  }
+
   .login-button {
     display: none;
   }
@@ -132,3 +137,7 @@ nav ul li:hover {
   }
 }
 
+@media screen and (max-width: 450px) {
+
+
+}
