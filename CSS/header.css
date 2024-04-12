@@ -138,6 +138,12 @@ nav ul li:hover {
 }
 
 @media screen and (max-width: 450px) {
-
-
+  .nav-bar {
+    padding: 0.8rem 0.8rem;
+  }
+  .logo img {
+    justify-content: space-between;
+    padding: 0px;
+    width: 80px;
+  }
 }
