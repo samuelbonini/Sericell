@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center; /* Centraliza os cards horizontalmente */
   margin-top: 170px;
-  margin-bottom: 30px;
+ 
 }
 
 .card-destaque {
@@ -138,7 +138,7 @@
     flex-direction: column; /* Altera a direção do flex para coluna */
     align-items: center; /* Centraliza os "cards" verticalmente */
     margin-top: 80px;
-    margin-bottom: 30px;
+    margin-bottom: -10px;
   }
 
   .card-destaque,

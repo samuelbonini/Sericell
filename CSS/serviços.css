@@ -170,10 +170,9 @@
   justify-content: center;
   align-items: center;
   margin: auto; /* Centraliza horizontalmente */
-  margin-top: -10px;
+  margin-top: 10px;
   font-weight: 300;
   font-size: 24px;
-  color: #0f1a22;
 
 }
 
@@ -214,7 +213,7 @@
 
 .titulo {
   font-weight: 400;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 /* Estilo para a imagem */
@@ -225,7 +224,7 @@
 /* Estilo para o span */
 .servico .info {
   font-weight: 300;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 /* Estilo para os botões */
