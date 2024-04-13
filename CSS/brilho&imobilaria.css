@@ -57,7 +57,6 @@
   justify-content: start;
 }
 
-
 .botao-1 {
   background-color: #e8f4ff;
   cursor: pointer;
@@ -121,7 +120,7 @@
 .imobilaria-text {
   font-family: "Crimson Pro", serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   font-size: 22px;
 }
@@ -164,75 +163,71 @@
   font-size: 2rem;
 }
 
+/* MEDIA QUERY BRILHO MODERNO */
 
 @media (max-width: 950px) {
-
   .titulo-brilho {
     font-size: 30px;
   }
-  
+
   .moderno-text {
     font-size: 38px;
   }
-  
+
   .text-brilho {
     font-size: 20px;
   }
-  
+
   .brilho-moderno img {
     max-width: 100%;
     height: auto; /* Mantém a proporção da imagem */
   }
-  
+
   .info-brilho {
     font-size: 16px;
   }
-  
+
   /* Estilo para os botões */
- 
-  
+
   .brilho-button button span {
     font-size: 1.2rem;
   }
-  
+
   .brilho-button img {
     width: 22px;
     height: 22px;
   }
 }
 
-
-  @media (max-width: 860px) {
-
-   .brilho-img img {
-      content: url('../Imagens/icons-universal/LED-CORES-MOBILE.png');
-     
-  }
-
-    .brilho-moderno {
-        display: flex;
-        flex-direction: column; /* Define a direção dos itens para coluna */
-        align-items: flex-start; /* Alinha os itens no início do eixo transversal */
-        max-width: 1000px;
-        padding: 0px 30px 0px 30px;
-        margin: 0 auto;
-        background-color: #fff;
-        border-radius: 10px;
-    }
-  
+@media (max-width: 860px) {
   .brilho-img img {
-      max-width: 100%;
-      height: auto; /* Mantém a proporção da imagem */
+    content: url("../Imagens/icons-universal/LED-CORES-MOBILE.png");
   }
-  
+
+  .brilho-moderno {
+    display: flex;
+    flex-direction: column; /* Define a direção dos itens para coluna */
+    align-items: flex-start; /* Alinha os itens no início do eixo transversal */
+    max-width: 1000px;
+    padding: 0px 30px 0px 30px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .brilho-img img {
+    max-width: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+  }
+
   .titulo-brilho {
     font-size: 26px;
   }
-  
+
   .moderno-text {
     font-size: 32px;
   }
-  
+
   .text-brilho {
     font-size: 16px;
   }
@@ -240,13 +235,52 @@
   .info-brilho {
     font-size: 16px;
   }
-  
+
   .brilho-button button span {
-    font-size: 1.0rem;
+    font-size: 1rem;
   }
 
   .brilho-button {
     padding-bottom: 14px;
   }
-
 }
+
+/* MEDIA QUERY IMOBILARIA */
+
+@media (max-width: 750px) {
+  .imobilaria-container {
+    padding: 20px;
+  }
+
+  .imobilaria-text {
+    font-size: 18px;
+  }
+
+  .imobilaria-img img {
+    width: 200px;
+    height: 200px;
+    max-width: auto;
+    height: auto; /* Mantém a proporção da imagem */
+  }
+}
+
+
+@media (max-width: 660px) {
+
+  .imobilaria-container {
+    flex-direction: column-reverse; /* Inverte a ordem dos elementos quando a largura da tela for menor que 660px */
+    justify-content: flex-start; /* Posiciona os itens no início da linha */
+    padding: 20px;
+
+  }
+
+  .imobilaria-img img {
+    justify-content: flex-start; /* Posiciona os itens no início da linha */
+    margin-bottom: 20px; /* Adiciona espaço entre a imagem e o texto */
+    width: 160px;
+    height: 160px;
+    max-width: auto;
+    height: auto; /* Mantém a proporção da imagem */
+  }
+}
+
