@@ -5,7 +5,6 @@
   justify-content: center; /* Centraliza os cards horizontalmente */
   margin-top: 170px;
   margin-bottom: 30px;
-  
 }
 
 .card-destaque {
@@ -31,7 +30,6 @@
   display: inline-block;
   margin: 30px;
   position: relative; /* posição relativa para o número */
-  
 }
 
 .numero-card {
@@ -86,6 +84,11 @@
 
 @media (max-width: 750px) {
 
+  .container-cards {
+    margin-top: 150px;
+    
+  }
+
   .card-destaque {
     width: 250px; /* largura do card */
     margin: 10px 0px 0px 0px;
@@ -128,20 +131,43 @@
 }
 
 @media (max-width: 550px) {
-  .card-destaque {
-    margin: 5px 0px 0px 0px;
-    margin-top: -30px;
-    margin-bottom: 20px;
+  .container-cards {
+    max-width: auto;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: flex;
+    flex-direction: column; /* Altera a direção do flex para coluna */
+    align-items: center; /* Centraliza os "cards" verticalmente */
+    margin-top: 80px;
+    margin-bottom: 30px;
   }
-  
+
+  .card-destaque,
   .card {
-    width: 250px; /* largura do card */
-    margin: 5px 10px 0px 10px;
+    width: 280px; /* largura do card */
+    height: auto; /* altura do card */
+    background-color: #e8f4ff; /* cor de fundo do card */
+    border-radius: 10px; /* borda arredondada */
+    display: inline-block;
+    position: relative; /* posição relativa para o número */
+    text-align: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 0 auto 30px; /* Adiciona margem inferior para separar os "cards" */
   }
+  .conteudo-p {
+    font-size: 0.9rem;
+    font-weight: 300;
+   }
+   
+   .card-texto01 {
+     font-weight: 300;
+     font-size: 1.2rem;
+     margin-bottom: 18px; /* margem inferior para separar a imagem */
+   }
+
+
+  
 }
 
-@media (max-width: 450px) {
 
-
-}
 

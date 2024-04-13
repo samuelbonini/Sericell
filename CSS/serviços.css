@@ -157,6 +157,132 @@
   text-align: center;
     font-family: "Salsa", cursive;
     font-weight: 400;
-    font-style: normal;
+    font-size: 2rem;
   }
 
+
+
+  @media (max-width: 750px) {
+
+
+/* Estilo para o contêiner principal */
+.servicos-container {
+  justify-content: center;
+  align-items: center;
+  margin: auto; /* Centraliza horizontalmente */
+  margin-top: -10px;
+  font-weight: 300;
+  font-size: 24px;
+  color: #0f1a22;
+
+}
+
+.servicos-container h1 {
+  color: white;
+  background-color: #0f1a22;;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+
+/* Estilo para os grupos de serviços */
+.servicos-grupo {
+  display: flex;
+  flex-direction: column; /* Altera a direção do flex para coluna */
+  align-items: center; /* Centraliza os "cards" verticalmente */
+  justify-content: center;
+}
+
+/* Estilo para cada serviço */
+.servico {
+  width: calc(100% - 30px); /* 50% do tamanho menos a margem entre eles */
+}
+
+/* Estilo para o subtitulo */
+.servico .subtitulo {
+  margin-top: 30px;
+  margin-bottom: 10px; /* Margem inferior para separar do parágrafo */
+  text-align: left; /* Alinha o texto no início */
+}
+
+.subtitulo {
+  font-weight: 600;
+  color: #0d8bff;
+  font-size: 26px;
+}
+
+.titulo {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+/* Estilo para a imagem */
+.servico .icone {
+  width: 100px; /* Largura da imagem */
+}
+
+/* Estilo para o span */
+.servico .info {
+  font-weight: 300;
+  font-size: 22px;
+}
+
+/* Estilo para os botões */
+
+
+.botao-2 span {
+  color: #fff;
+}
+
+.servicos-button button {
+  padding: 10px 12px;
+  border-radius: 2px;
+  margin: 8px;
+}
+
+.servicos-button button span {
+  font-weight: 300;
+  font-size: 1.4rem;
+   margin: 0px 0px 0px 5px;
+}
+
+.servicos-button img {
+  width: 22px;
+  height: 22px;
+}
+
+/*Frase meio do site LED */
+
+
+.led {
+  background-color: #13191d;
+  margin: 0px 0px 50px 0px;
+  display: flex; /* Torna o div um flex container */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+.frase-led {
+  color: #fff;
+  padding: 28px 28px;
+    font-weight: 400;
+    font-size: 1.6rem;
+  }
+}
+
+
+@media (max-width: 550px) {
+  .led {
+    background-color: #13191d;
+    margin: 0px 0px 50px 0px;
+    display: flex; /* Torna o div um flex container */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  }
+  
+  .frase-led {
+    color: #fff;
+    padding: 22px 22px;
+      font-weight: 400;
+      font-size: 1.0rem;
+    }
+}
