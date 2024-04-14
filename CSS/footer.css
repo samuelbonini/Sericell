@@ -10,6 +10,13 @@ footer {
   padding: 1.5rem 6rem;
 }
 
+.footer-img img {
+  width: 180px;
+  height: 180px;
+  max-width: auto;
+  height: auto; /* Mantém a proporção da imagem */
+}
+
 .logo-footer {
   display: flex;
   align-items: center;
@@ -51,4 +58,86 @@ p a img {
   font-style: normal;
 }
 
-@media (max-width:)
+@media (max-width: 850px) {
+  
+  .footer-container {
+    padding: 1.5rem 4rem;
+  }
+  
+  .footer-img img {
+    width: 150px;
+    height: 150px;
+    max-width: auto;
+    height: auto; /* Mantém a proporção da imagem */
+  }
+  
+  p a img {
+    padding: 4px;
+    margin: 4px;
+    width: 26px;
+    height: 26px;
+  }
+  
+  .text-footer {
+    font-size: 1.4rem;
+  }
+
+  .text-somos {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .footer-img img {
+    width: 100px;
+    height: 100px;
+    max-width: auto;
+    height: auto; 
+  }
+
+  p a img {
+    padding: 4px;
+    margin: 4px;
+    width: 22px;
+    height: 22px;
+  }
+  
+  .text-footer {
+    font-size: 1.2rem;
+  }
+
+  .text-somos {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .footer-container {
+    flex-direction: column; /* Altera a direção do layout para coluna */
+    align-items: center; /* Alinha os itens ao centro na direção da coluna */
+    padding: 1rem; /* Ajusta o espaçamento interno */
+  }
+
+  .footer-img {
+    margin-bottom: 0.6rem; /* Adiciona espaço abaixo da imagem */
+  }
+
+  .footer-sobre {
+    margin-top: 0.6rem; /* Adiciona espaço acima do bloco "Sobre nós" */
+  }
+
+.footer-redesocial {
+  text-align: center;
+}
+
+
+.footer-span {
+
+  padding: 5px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.8rem;
+}
+}
