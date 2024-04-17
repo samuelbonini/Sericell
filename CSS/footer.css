@@ -2,6 +2,7 @@ footer {
   background-color: #0f1a22;
   box-shadow: 0px 3px 10px #464646;
   margin: 0px auto;
+
 }
 
 .footer-container {
@@ -20,6 +21,7 @@ footer {
 .logo-footer {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .footer-conteudo {
@@ -38,6 +40,14 @@ footer {
 .footer-sobre p {
   margin: 3px;
   color: #0d8bff  ;
+}
+
+.footer-sobre {
+ max-width: 800px;
+}
+
+.footer-conect {
+  max-width: 80 0px;
 }
 
 p a img {

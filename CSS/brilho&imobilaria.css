@@ -81,7 +81,8 @@
   align-content: center;
   font-family: "Salsa", cursive;
   border: none;
-  box-shadow: 0px 1px 5px 0px #0d8bff;
+  box-shadow: 0px 1px 5px 0px #0d8aff2d;
+
   padding: 12px 20px;
   border-radius: 2px;
   margin-right: 20px;
@@ -152,7 +153,7 @@
   align-content: center;
   font-family: "Salsa", cursive;
   border: none;
-  box-shadow: 0px 1px 5px 0px #0d8bff;
+  box-shadow: 0px 1px 5px 0px #0d8aff57;
   padding: 16px 44px;
   border-radius: 2px;
 }

@@ -1,0 +1,24 @@
+.container-sobre {
+  max-width: 1000px; /* Define uma largura máxima para o conteúdo */
+  margin: 0 auto;
+  border-radius: 10px; /* Borda arredondada */
+}
+
+.sobre-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #13191D;
+  margin: 30px;
+}
+
+.sobre-text {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #13191D;
+  margin-bottom: 30px;
+
+}
+
