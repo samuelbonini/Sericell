@@ -1,6 +1,6 @@
 header {
   background-color: #101518;
-  box-shadow: 0px 3px 10px #464646;
+  box-shadow: 0px 3px 4px #46464623;
 }
 
 .nav-bar {
@@ -81,6 +81,8 @@ nav ul li:hover {
 .selecionado {
   border-bottom: 2px solid #0d8bff;
 }
+
+
 
 @media screen and (max-width: 853px) {
   .nav-bar {

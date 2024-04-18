@@ -2,14 +2,28 @@
   max-width: 1000px; /* Define uma largura máxima para o conteúdo */
   margin: 0 auto;
   border-radius: 10px; /* Borda arredondada */
+ 
 }
+
+.container-contato {
+  background: #13191D;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 240px;
+  max-width: 1200px;
+  
+}
+
 
 .sobre-titulo {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #13191D;
   margin: 30px;
+  font-family: "Crimson Pro", serif;
+  font-size: 3rem;
+  font-optical-sizing: auto;
+  font-weight: 500;
 }
 
 .sobre-text {
@@ -18,7 +32,88 @@
   align-items: center;
   justify-content: center;
   color: #13191D;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
+  font-family: "Crimson Pro", serif;
+  font-size: 1.4rem;
+  font-optical-sizing: auto;
+  font-weight: 300;
+
+  
 
 }
+
+.contato-titulo {
+  text-align: center;
+  align-items: center;
+  font-family: "Crimson Pro", serif;
+  font-size: 2.5rem;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  color: #fff;
+ 
+}
+
+.span-contato {
+color: #f8E53F;
+}
+
+.container-cont-end {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.contato-info h2,
+.endereco-info h2 {  
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px; /* Adiciona um espaço entre o título e a lista */
+  color: #F8E53F;
+  font-family: "Crimson Pro", serif;
+  font-size: 1.8rem;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  
+}
+
+.lista-contato ul,
+.endereco-info ul {
+  margin: 0; /* Remove a margem padrão */
+  padding: 0; /* Remove o preenchimento padrão */
+  list-style: none; /* Remove os marcadores de lista padrão */
+}
+
+.lista-contato li a {
+  color: #fff;
+  list-style: none;
+}
+
+.endereco-info li a {
+  color: #fff;
+  list-style: none;
+}
+
+.lista-contato li,
+.endereco-info li {
+  display: flex; /* Ativa o modelo de layout flexível */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  list-style: none; /* Remove os marcadores de lista padrão */
+  font-family: "Crimson Pro", serif;
+  font-size: 1.4rem;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  margin-bottom: 10px;
+  
+}
+
+.lista-contato li img,
+.lista-endereco li img {
+  margin-right: 10px; /* Adiciona um espaço entre o ícone e o texto */
+  width: 22px;
+  height: 22px;
+}
+
+
+
 
