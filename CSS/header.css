@@ -79,8 +79,32 @@ nav ul li:hover {
 }
 
 .selecionado {
-  border-bottom: 2px solid #0d8bff;
+  border-bottom: 2px solid #F8E53F;
 }
+
+.gradiente-animado {
+  
+  background-image: linear-gradient(to right, rgb(0, 162, 255) 0%, rgb(0, 162, 255) 25%, rgb(255, 238, 0) 50%, rgb(255, 238, 0) 75%, rgb(255, 238, 0) 0%,  rgb(0, 162, 255) 100%, rgb(0, 162, 255) 75%, rgb(255, 238, 0) 50%, rgb(255, 238, 0) 25%, rgb(255, 238, 0) 0%);
+  background-size: 200% 100%; 
+  color: transparent; 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  animation: animateGradient 10s linear infinite; 
+}
+
+@keyframes animateGradient {
+  0% {
+    background-position: 0 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+
+
+
+
 
 
 
