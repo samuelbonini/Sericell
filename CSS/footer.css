@@ -38,8 +38,8 @@ footer {
 }
 
 .footer-sobre p {
-  margin: 3px;
-  color: #0d8bff  ;
+  margin-top: 8px;
+  color: #fff ;
 }
 
 .footer-sobre {
@@ -67,6 +67,21 @@ p a img {
   font-weight: 400;
   font-style: normal;
 }
+
+.text-somos {
+  display: flex;
+  align-items: center;
+}
+
+.icon-footer-whats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
 
 @media (max-width: 850px) {
   
