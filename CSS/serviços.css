@@ -14,7 +14,10 @@
 .servicos-grupo {
   display: flex;
   justify-content: space-between;
+}
 
+.titulo-servicos {
+  color: #0f1a22;
 }
 
 /* Estilo para cada serviço */
@@ -41,12 +44,12 @@
   font-size: 26px;
 }
 
-.titulo {
+.info-servico {
   font-family: "Crimson Pro", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  color: #485056;
+  color: #564848;
   font-size: 20px;
 }
 /* Estilo para o conteúdo */
@@ -56,7 +59,7 @@
 }
 
 /* Estilo para o parágrafo */
-.servico .titulo {
+.servico .info-servico {
   margin-bottom: 10px; /* Margem inferior para separar do span */
   text-align: left; /* Alinha o texto no início */
 }
@@ -162,7 +165,7 @@
 
 
 
-  @media (max-width: 750px) {
+  @media (max-width: 785px) {
 
 
 /* Estilo para o contêiner principal */
@@ -211,7 +214,7 @@
   font-size: 26px;
 }
 
-.titulo {
+.info-servico {
   font-weight: 400;
   font-size: 18px;
 }
