@@ -1,0 +1,143 @@
+.services-img {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #0f1a22;
+  background-image: url(/Imagens-services/Index\ \(1\).png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vh;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Adiciona sombra embaixo da imagem */
+}
+
+
+
+.services-index {
+  background-color: #13191dd3;
+  max-width: 800px;
+  padding: 30px;
+}
+
+.services-index h2 {
+   font-family: "Crimson Pro", serif;
+    font-size: 3.6rem;
+    font-weight: 500;
+  color: #fff;
+}
+
+.services-index span {
+  font-family: "Crimson Pro", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+
+.services-subtitulo {
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #0d8bff;
+  font-size: 1.625rem;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 850px) {
+
+  .inicio-img {
+    height: 30vh;
+  }
+
+  .inicio-index h2 {
+    font-size: 60px;
+  }
+
+  .inicio-index span {
+    font-size: 20px;
+  }
+
+  article {
+   width: 500px;
+  }
+  
+  .frase-inicio {
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  .inicio-img {
+    height: 22vh;
+  }
+
+
+  .inicio-index h2 {
+    font-size: 2.8rem;
+    margin-top: 0.1rem;
+  }
+
+  .inicio-index span {
+    font-size: 0.7;
+    margin-top: 0.1rem;
+  }
+
+  article {
+   width: 320px;
+   padding: 12px;
+   margin: -20px auto;
+
+  }
+
+  .frase-inicio {
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 450px) {
+
+  .inicio-img {
+    height: 16vh;
+  }
+
+
+  .inicio-index h2 {
+    font-size: 2.4rem;
+    margin-top: 0.1rem;
+  }
+
+  .inicio-index span {
+    font-size: 0.8rem;
+    margin-top: 0.1rem;
+  }
+
+  article {
+   width: 280px;
+   padding: 10px;
+   margin: -20px auto;
+
+  }
+
+  .frase-inicio {
+    font-size: 0.8rem;
+  }
+}
