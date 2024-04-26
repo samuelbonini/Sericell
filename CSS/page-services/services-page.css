@@ -13,12 +13,19 @@ justify-content: center;
 background-color: #efefef;
 }
 
+.slide-container {
+max-width: 1120px;
+width: 100%;
+background-color: grey;
+padding: 40px 0;
+}
+
 .slide-content {
   margin: 0 40px;
 }
 
 .card2 {
-  width: 320px;
+  width: 280px;
   border-radius: 25px;
   background-color: #fff;
 }
@@ -32,13 +39,41 @@ background-color: #efefef;
 }
 
 .image-content {
+  position: relative;
   row-gap: 5px;
+  padding: 25px 0;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #4040f4;
+  border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before,
+.overlay::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #4040f4;
+}
+
+.overlay::after {
+border-radius: 0 25px 0 0;
+background-color: #fff;
 }
 
 .card-image {
   position: relative;
   height: 150px;
-  width: 150px;
+  width: 200px;
   border-radius: 10%;
   background: #fff;
   padding: 3px;
