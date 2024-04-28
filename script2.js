@@ -31,3 +31,11 @@ fade: "true",
     },
   },
 });
+
+var swiper = new Swiper('.swiper-container', {
+  // Configurações opcionais
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});

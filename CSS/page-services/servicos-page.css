@@ -1,0 +1,71 @@
+
+.background-services-page {
+  background-color: #3d3d3d;
+}
+
+.container-services-page {
+  max-width: 1200px; /* Largura máxima para centralização */
+  margin: auto; /* Centraliza horizontalmente */
+  padding: 30px; /* Espaçamento interno */
+}
+
+.titulo-services-page {
+  font-family: "Crimson Pro", serif;
+  font-weight: 600;
+  font-optical-sizing: auto;
+  color: #0d8bff;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: start;
+}
+
+.blocos-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.bloco-service {
+  margin: 10px;
+}
+
+.bloco-service img {
+  width: 220px; /* Para ocupar toda a largura do bloco */
+height: 170px;
+border-radius: 10px 5px 10px 5px;
+box-shadow: 0px 1px 5px 0px #0d8aff1e;
+
+
+}
+
+.texto-service {
+  max-width: 220px;
+  background-color: #313131;; /* Cor de fundo do texto */
+  box-shadow: 0px 1px 5px 0px #0d8aff1e;
+  border-radius: 5px;
+}
+
+.texto-service h2 {
+  padding: 10px;
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  box-shadow: 0px 0px 3px 0px #0d8aff;
+  border-radius: 10px 0px 10px 0px;
+  color: #fff; /* Cor do subtítulo */
+}
+
+.texto-service p {
+  padding: 10px;
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-size: 1rem;
+  font-weight: 300;
+  border-radius: 10px 0px 10px 0px;
+  color: #fff; /* Cor do subtítulo */
+}
+
+/*
+*/
