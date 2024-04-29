@@ -6,8 +6,9 @@
 @import url(footer.css);
 @import url(sobre.css);
 @import url(endereco-contato.css);
-@import url(page-services/index\ page\ serviços.css);
-@import url(page-services/services-page.css);
+@import url(page-services/index-page-servicos.css);
+@import url(page-services/servicos-page.css);
+@import url(servicos-page1.css);
 
 * {
   padding: 0;

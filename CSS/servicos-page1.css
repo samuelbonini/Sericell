@@ -1,0 +1,200 @@
+.servicos-info-card {
+  display: flex;
+  margin: 0 auto;
+  background-color: #e8f4ff;
+}
+
+.titulo-servico-info {
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: #13191d;
+}
+
+
+.text-servico-info {
+  padding: 0px 30px 0px 30px;
+}
+
+.servico-info-img img {
+  max-width: 100%;
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+
+.textp-servico-info {
+  margin: 10px 0px 12px 0px;
+  color: #3d3d3d;
+  font-family: "Crimson Pro", serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.servicos-info-card img {
+  max-width: 100%;
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+
+/* Estilo para os botões */
+
+.brilho-button {
+  display: flex;
+  justify-content: start;
+}
+
+.botao-1 {
+  background-color: #e8f4ff;
+  cursor: pointer;
+}
+
+.botao-1 span {
+  color: #3d3d3d;
+}
+
+.botao-2 {
+  background-color: #3d3d3d;
+  cursor: pointer;
+}
+
+.botao-2 span {
+  color: #fff;
+}
+
+.brilho-button button {
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  font-family: "Salsa", cursive;
+  border: none;
+  box-shadow: 0px 1px 5px 0px #0d8aff2d;
+
+  padding: 12px 20px;
+  border-radius: 2px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.brilho-button button span {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 0px 0px 0px 5px;
+}
+
+.brilho-button img {
+  width: 22px;
+  height: 22px;
+}
+
+
+
+@media (max-width: 950px) {
+  .titulo-servico-info {
+    font-size: 30px;
+  }
+
+
+  .textp-servico-info {
+    font-size: 20px;
+  }
+
+  .servicos-info-card img {
+    max-width: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+  }
+
+
+  /* Estilo para os botões */
+
+  .brilho-button button span {
+    font-size: 1.2rem;
+  }
+
+  .brilho-button img {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media (max-width: 860px) {
+  .servico-info-img img {
+    content: url("../Imagens/icons-universal/LED-CORES-MOBILE.png");
+  }
+
+  .servicos-info-card {
+    display: flex;
+    flex-direction: column; /* Define a direção dos itens para coluna */
+    align-items: flex-start; /* Alinha os itens no início do eixo transversal */
+    max-width: 1000px;
+    padding: 0px 30px 0px 30px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .servico-info-img img {
+    max-width: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+  }
+
+  .titulo-servico-info {
+    font-size: 26px;
+  }
+
+ 
+
+  .textp-servico-info {
+    font-size: 16px;
+  }
+
+
+  .brilho-button button span {
+    font-size: 1rem;
+  }
+
+  .brilho-button {
+    padding-bottom: 14px;
+  }
+}
+
+/* MEDIA QUERY IMOBILARIA */
+
+@media (max-width: 750px) {
+  .imobilaria-container {
+    padding: 20px;
+  }
+
+  .imobilaria-text {
+    font-size: 18px;
+  }
+
+  .imobilaria-img img {
+    width: 200px;
+    height: 200px;
+    max-width: auto;
+    height: auto; /* Mantém a proporção da imagem */
+  }
+}
+
+
+@media (max-width: 660px) {
+
+  .imobilaria-container {
+    flex-direction: column-reverse; /* Inverte a ordem dos elementos quando a largura da tela for menor que 660px */
+    justify-content: flex-start; /* Posiciona os itens no início da linha */
+    padding: 20px;
+
+  }
+
+  .imobilaria-img img {
+    justify-content: flex-start; /* Posiciona os itens no início da linha */
+    margin-bottom: 20px; /* Adiciona espaço entre a imagem e o texto */
+    width: 160px;
+    height: 160px;
+    max-width: auto;
+    height: auto; /* Mantém a proporção da imagem */
+  }
+}
+
