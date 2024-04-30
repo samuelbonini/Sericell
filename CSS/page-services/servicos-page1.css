@@ -8,54 +8,71 @@
   font-family: "Salsa", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.6rem;
-  color: #fff;
+  font-size: 1.3rem;
+
 }
+
 .textp-servico-info2 {
   margin: 10px 0px 12px 0px;
   color: #fff;
   font-family: "Crimson Pro", serif;
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
+
+
 /* ------------- FIM CARD 2 -----------*/
+
+
+
+.servicos-info-card,
+.servicos-info-card2 {
+  display: flex;
+  align-items: center; /* Centraliza os itens verticalmente */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  margin: 0 auto;
+}
 
 .servicos-info-card {
   display: flex;
   margin: 0 auto;
- 
+  margin-bottom: -4px;
 }
 
 .titulo-servico-info {
   font-family: "Salsa", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.6rem;
-  color: #13191d;
+  font-size: 1.3rem;
 }
+
 
 .textp-servico-info {
   margin: 10px 0px 12px 0px;
-  color: #3d3d3d;
+  color: #0f1a22;
   font-family: "Crimson Pro", serif;
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .text-servico-info {
+  flex: 1;
   padding: 30px;
+  order: 2;
 }
+
+.servico-info-img {
+  flex: 1; /* Faz a imagem ocupar todo o espaço disponível */
+  order: 2; /* Altera a ordem para 1, colocando-a antes do conteúdo de texto */
+}
+
 
 .servico-info-img img {
   max-width: 100%;
-  height: 100%; /* Mantém a proporção da imagem */
+  height: auto; 
 }
-
-
-
 
 .servicos-info-card img {
   max-width: 100%;
-  height: auto; /* Mantém a proporção da imagem */
+  height: auto; 
 }
-
