@@ -1,3 +1,14 @@
+h1 a {
+  text-decoration: none;
+  color: #0D8BFF;
+  transition: color 0.4s, font-size 1.0s; /* Adiciona uma transição suave de 0.3 segundos para a cor e tamanho da fonte */
+}
+
+h1 a:hover {
+  color: #0dc7ff; /* Cor do texto ao passar o mouse */
+  font-size: 1.1em; /* Tamanho da fonte ao passar o mouse */
+}
+
 /* ------------- INICIO CARD 2 -----------*/
 .servicos-info-card2 {
   display: flex;
@@ -9,7 +20,6 @@
   font-weight: 400;
   font-style: normal;
   font-size: 1.3rem;
-
 }
 
 .textp-servico-info2 {
@@ -17,12 +27,12 @@
   color: #fff;
   font-family: "Crimson Pro", serif;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  max-width: 600px;
 }
 
 
 /* ------------- FIM CARD 2 -----------*/
-
 
 
 .servicos-info-card,
@@ -52,7 +62,8 @@
   color: #0f1a22;
   font-family: "Crimson Pro", serif;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  max-width: 600px;
 }
 
 .text-servico-info {
@@ -67,12 +78,14 @@
 }
 
 
-.servico-info-img img {
+.servico-info-img {
   max-width: 100%;
   height: auto; 
+  overflow: hidden; /* Oculta o conteúdo que excede os limites da div */
+  direction: rtl; /* Define a direção do conteúdo da direita para a esquerda */
 }
 
-.servicos-info-card img {
-  max-width: 100%;
-  height: auto; 
+.servico-info-img img {
+  height: 400px;
 }
+
