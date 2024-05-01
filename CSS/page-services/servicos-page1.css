@@ -1,3 +1,70 @@
+.content-frase-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* inicio efeitos borda */
+.content-frase-page::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  animation: changeColor 5s linear infinite;
+}
+@keyframes changeColor {
+  0% {
+    border-color: #0f1b242a; /* Cor inicial */
+  }
+  20% {
+    border-color: #0d8aff36; /* Cor intermediária */
+  }
+  40% {
+    border-color: #f8e63f3d; /* Cor final */
+  }
+  60% {
+    border-color: #0d8aff2f; /* Cor inicial */
+  }
+  80% {
+    border-color: #f8e63f28; /* Cor intermediária */
+  }
+  100% {
+    border-color: #0f1b242d; /* Cor final */
+  }
+}
+/* fim efeitos borda */
+
+.content-frase-page img {
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+}
+
+.titulo-frase-servicos {
+  font-family: "Crimson Pro", serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #0f1a22;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+
+
+/* INICIO SERVIÇOS */
+
 h1 a {
   text-decoration: none;
   color: #0D8BFF;
@@ -30,7 +97,6 @@ h1 a:hover {
   font-size: 1.1rem;
   max-width: 600px;
 }
-
 
 /* ------------- FIM CARD 2 -----------*/
 
@@ -67,18 +133,24 @@ h1 a:hover {
 }
 
 .text-servico-info {
-  flex: 1;
+  flex: 2;
   padding: 30px;
   order: 2;
 }
 
+
 .servico-info-img {
   flex: 1; /* Faz a imagem ocupar todo o espaço disponível */
   order: 2; /* Altera a ordem para 1, colocando-a antes do conteúdo de texto */
+  max-width: 100%;
+  height: auto; 
+  overflow: hidden; /* Oculta o conteúdo que excede os limites da div */
+  direction: rtl; /* Define a direção do conteúdo da direita para a esquerda */
 }
 
-
-.servico-info-img {
+.servico-info-img2 {
+  flex: 1; /* Faz a imagem ocupar todo o espaço disponível */
+  order: 2; /* Altera a ordem para 1, colocando-a antes do conteúdo de texto */
   max-width: 100%;
   height: auto; 
   overflow: hidden; /* Oculta o conteúdo que excede os limites da div */
@@ -89,3 +161,18 @@ h1 a:hover {
   height: 400px;
 }
 
+.servico-info-img2 img {
+  height: 400px;
+}
+
+@media (max-width: 1500px) {
+  .text-servico-info {
+    flex: 1;
+    padding: 30px;
+    order: 2;
+  }
+}
+
+@media (max-width: 850px) {
+
+}
