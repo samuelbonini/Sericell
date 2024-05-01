@@ -87,6 +87,8 @@ h1 a:hover {
   font-weight: 400;
   font-style: normal;
   font-size: 1.3rem;
+text-shadow: 0px 2px 4px #0d8aff9d; /* Adiciona uma sombra na parte inferior */
+
 }
 
 .textp-servico-info2 {
@@ -120,6 +122,8 @@ h1 a:hover {
   font-weight: 400;
   font-style: normal;
   font-size: 1.3rem;
+text-shadow: 0px 2px 4px #0d8aff9d; /* Adiciona uma sombra na parte inferior */
+
 }
 
 
@@ -165,6 +169,60 @@ h1 a:hover {
   height: 400px;
 }
 
+/* PORQUE SERICELL? */
+
+.porque-titulo {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 40px;
+margin-bottom: 20px;
+font-family: "Salsa", cursive;
+font-weight: 400;
+font-style: normal;
+font-size: 2rem;
+color: #0D8BFF;
+text-shadow: 0px 2px 4px #0d8aff9d; /* Adiciona uma sombra na parte inferior */
+}
+
+
+.porque-container {
+display: flex;
+width: 1000px;
+margin: 0 auto;
+margin-bottom: 40px;
+}
+
+.porque-subcontainer {
+  text-align: center;
+}
+
+.porque-subcontainer img {
+  width: 120px;
+  height: 120px;
+}
+
+.porque-subcontainer h2 {
+  font-family: "Crimson Pro", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #0f1a22;
+}
+
+.porque-subcontainer p {
+  font-family: "Crimson Pro", serif;
+  font-weight: 400;
+  font-size: 1.0rem;
+  margin: 8px 30px 0px 30px;
+  color: #485056;
+}
+
+
+/* FIM PORQUE SERICELL? */
+
+
 @media (max-width: 1500px) {
   .text-servico-info {
     flex: 1;
@@ -173,6 +231,29 @@ h1 a:hover {
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1050px) {
+  .porque-container {
+    width: 800px;
+    }
 
+    .porque-subcontainer img {
+      width: 100px;
+      height: 100px;
+    }
+
+    .porque-subcontainer h2 {
+      font-weight: 400;
+      font-size: 1.0rem;
+      margin-top: 20px;
+    }
+    
+    .porque-subcontainer p {
+      font-weight: 400;
+      font-size: 0.8rem;
+      margin: 8px 20px 0px 20px;
+    }
+}
+
+@media (max-width: 800px) {
+  
 }
