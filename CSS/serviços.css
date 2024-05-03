@@ -1,13 +1,10 @@
 /* Estilo para o contêiner principal */
 .servicos-container {
   font-family: "Salsa", cursive;
-  font-weight: 400;
-  font-style: normal;
   text-align: center; /* Centraliza o conteúdo */
   max-width: 1200px; /* Largura máxima para centralização */
   margin: auto; /* Centraliza horizontalmente */
   padding: 20px; /* Espaçamento interno */
-  font-size: 26px;
 }
 
 /* Estilo para os grupos de serviços */
@@ -18,6 +15,8 @@
 
 .titulo-servicos {
   color: #0f1a22;
+  font-weight: 300;
+  font-size: 2.4rem;
 }
 
 /* Estilo para cada serviço */
@@ -28,20 +27,26 @@
 /* Estilo para o subtitulo */
 .servico .subtitulo {
   margin-top: 30px;
-  margin-bottom: 10px; /* Margem inferior para separar do parágrafo */
   text-align: left; /* Alinha o texto no início */
   
 }
+
+
 
 .subtitulo {
   font-family: "Crimson Pro", serif;
   font-optical-sizing: auto;
   font-weight: 600;
-  font-weight: <weight>;
-  font-style: normal;
-  color: #0d8bff;
-  font-size: 26px;
-  
+  font-size: 1.6rem;
+  text-shadow: 0px 2px 4px #0d8aff9d;
+  text-decoration: none;
+  color: #0D8BFF;
+  transition: 0.4s;
+}
+
+.subtitulo:hover {
+  color: #0dc7ff; /* Cor que deseja quando passar o mouse */
+  font-size: 1.8rem; /* Tamanho da fonte aumentado */
 }
 
 .info-servico {
@@ -50,7 +55,7 @@
   font-weight: 400;
   font-style: normal;
   color: #564848;
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 /* Estilo para o conteúdo */
 .servico .conteudo {
@@ -78,9 +83,8 @@
   font-family: "Crimson Pro", serif;
   font-weight: 300;
   font-style: italic;
-  font-size: 20px;
-  padding-top: 10px; /* Espaçamento acima do span */
-  margin-top: -10px; /* Subindo o texto do span */
+  font-size: 1.1rem;
+  margin-top: -8px; /* Subindo o texto do span */
   text-align: left; /* Alinha o texto no início */
 }
 
@@ -170,17 +174,11 @@
 
 
   @media (max-width: 785px) {
-
-
-/* Estilo para o contêiner principal */
 .servicos-container {
   justify-content: center;
   align-items: center;
-  margin: auto; /* Centraliza horizontalmente */
+  margin: auto;
   margin-top: 10px;
-  font-weight: 300;
-  font-size: 24px;
-
 }
 
 .servicos-container h1 {
@@ -190,48 +188,31 @@
   border-radius: 5px;
 }
 
-
-
 /* Estilo para os grupos de serviços */
 .servicos-grupo {
   display: flex;
-  flex-direction: column; /* Altera a direção do flex para coluna */
-  align-items: center; /* Centraliza os "cards" verticalmente */
+  flex-direction: column;
+  align-items: center; 
   justify-content: center;
 }
 
 /* Estilo para cada serviço */
 .servico {
-  width: calc(100% - 30px); /* 50% do tamanho menos a margem entre eles */
+  width: calc(100% - 30px); 
 }
 
 /* Estilo para o subtitulo */
 .servico .subtitulo {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 10px; /* Margem inferior para separar do parágrafo */
   text-align: left; /* Alinha o texto no início */
 }
 
-.subtitulo {
-  font-weight: 600;
-  color: #0d8bff;
-  font-size: 26px;
-}
 
-.info-servico {
-  font-weight: 400;
-  font-size: 18px;
-}
 
 /* Estilo para a imagem */
 .servico .icone {
   width: 100px; /* Largura da imagem */
-}
-
-/* Estilo para o span */
-.servico .info {
-  font-weight: 300;
-  font-size: 20px;
 }
 
 /* Estilo para os botões */
