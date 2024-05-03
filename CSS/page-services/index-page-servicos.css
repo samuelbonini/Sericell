@@ -1,20 +1,18 @@
 .services-img {
+  background-image: url(/Imagens-services/index-servicos.png);
   box-sizing: border-box;
   position: relative;
   display: flex;
   justify-content: start;
   align-items: center;
-  background-image: url(/Imagens-services/index-servicos.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
+  width: auto;
   height: 50vh;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Adiciona sombra embaixo da imagem */
+  box-shadow: 0px 4px 8px rgba(27, 20, 20, 0.3); /* Adiciona sombra embaixo da imagem */
   margin-bottom: 30px;
 }
-
-
 
 .services-index {
   background-color: #13191dd3;
@@ -23,9 +21,9 @@
 }
 
 .services-index h2 {
-   font-family: "Crimson Pro", serif;
-    font-size: 3.0rem;
-    font-weight: 500;
+  font-family: "Crimson Pro", serif;
+  font-size: 3rem;
+  font-weight: 500;
   color: #fff;
 }
 
@@ -37,40 +35,30 @@
   color: #fff;
 }
 
-
 @media (max-width: 852px) {
-
   .services-index {
     max-width: 500px;
   }
-  
+
   .services-index h2 {
-      font-size: 2.4rem;
+    font-size: 2.4rem;
   }
-  
+
   .services-index span {
     font-size: 1rem;
   }
 }
 
-
 @media (max-width: 550px) {
-
   .services-index {
     max-width: 400px;
   }
-  
+
   .services-index h2 {
-      font-size: 2.0rem;
+    font-size: 2rem;
   }
-  
+
   .services-index span {
     font-size: 0.8rem;
   }
 }
-
-
-
-
-
-
