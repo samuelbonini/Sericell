@@ -68,4 +68,7 @@
   .services-index span {
     font-size: 0.8rem;
   }
+  .services-index {
+    background-color: #13191d8e;
+  }
 }
