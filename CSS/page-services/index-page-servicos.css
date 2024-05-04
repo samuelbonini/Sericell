@@ -62,13 +62,13 @@
   }
 
   .services-index h2 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   .services-index span {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .services-index {
-    background-color: #13191d8e;
+    padding: 26px;
   }
 }
