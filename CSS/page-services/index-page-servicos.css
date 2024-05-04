@@ -11,10 +11,8 @@
 
 .services-img img {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
   object-fit: cover; /* Mantém a proporção da imagem e cobre todo o espaço disponível */
   z-index: -1; /* Garante que a imagem fique atrás do conteúdo */
 }
@@ -69,8 +67,5 @@
 
   .services-index span {
     font-size: 0.8rem;
-  }
-  .services-img {
-    height: 26vh;
   }
 }
