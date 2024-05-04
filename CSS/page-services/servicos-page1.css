@@ -255,8 +255,6 @@ h1 a:hover {
   .servico-info-img,
   .servico-info-img2 {
     order: 2; /* Coloca a imagem acima dos textos */
-    width: ;
-    height: ;
   }
 
   .text-servico-info,
