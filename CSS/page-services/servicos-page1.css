@@ -252,7 +252,7 @@ margin-bottom: 40px;
       margin: 8px 20px 0px 20px;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 810px) {
   .servicos-info-card,
   .servicos-info-card2 {
     flex-direction: column-reverse; /* Inverte a ordem dos itens para coluna e coloca a imagem acima dos textos */
@@ -304,5 +304,13 @@ font-size: 1rem;
   height: 120px;
   margin-left: 30px;
   margin-top: -180px;
+}
+
+.servico-info-img img {
+  height: 280px;
+}
+
+.servico-info-img2 img {
+  height: 280px;
 }
 }
