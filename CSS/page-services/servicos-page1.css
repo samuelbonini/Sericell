@@ -16,7 +16,7 @@
 
 /* inicio efeitos borda */
 .content-frase-page::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -2px;
   left: -2px;
@@ -54,7 +54,6 @@
   margin-left: 30px;
 }
 
-
 .titulo-frase-servicos {
   font-family: "Crimson Pro", serif;
   font-weight: 300;
@@ -70,8 +69,8 @@
 
 h1 a {
   text-decoration: none;
-  color: #0D8BFF;
-  transition: color 0.4s, font-size 1.0s; /* Adiciona uma transição suave de 0.3 segundos para a cor e tamanho da fonte */
+  color: #0d8bff;
+  transition: color 0.4s, font-size 1s; /* Adiciona uma transição suave de 0.3 segundos para a cor e tamanho da fonte */
 }
 
 h1 a:hover {
@@ -83,15 +82,14 @@ h1 a:hover {
 .servicos-info-card2 {
   display: flex;
   margin: 0 auto;
-  background-color: #0f1a22;;
+  background-color: #0f1a22;
 }
 .titulo-servico-info2 {
   font-family: "Salsa", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 1.3rem;
-text-shadow: 0px 2px 4px #0d8aff9d; /* Adiciona uma sombra na parte inferior */
-
+  text-shadow: 0px 2px 4px #0d8aff9d; /* Adiciona uma sombra na parte inferior */
 }
 
 .textp-servico-info2 {
@@ -122,9 +120,8 @@ text-shadow: 0px 2px 4px #0d8aff9d; /* Adiciona uma sombra na parte inferior */
   font-weight: 400;
   font-style: normal;
   font-size: 1.3rem;
-text-shadow: 0px 2px 4px #0d8aff9d; /* Adiciona uma sombra na parte inferior */
+  text-shadow: 0px 2px 4px #0d8aff9d; /* Adiciona uma sombra na parte inferior */
 }
-
 
 .textp-servico-info {
   margin: 10px 0px 12px 0px;
@@ -141,12 +138,11 @@ text-shadow: 0px 2px 4px #0d8aff9d; /* Adiciona uma sombra na parte inferior */
   order: 2;
 }
 
-
 .servico-info-img {
   flex: 1; /* Faz a imagem ocupar todo o espaço disponível */
   order: 2; /* Altera a ordem para 1, colocando-a antes do conteúdo de texto */
   max-width: 100%;
-  height: auto; 
+  height: auto;
   overflow: hidden; /* Oculta o conteúdo que excede os limites da div */
   direction: rtl; /* Define a direção do conteúdo da direita para a esquerda */
 }
@@ -155,7 +151,7 @@ text-shadow: 0px 2px 4px #0d8aff9d; /* Adiciona uma sombra na parte inferior */
   flex: 1; /* Faz a imagem ocupar todo o espaço disponível */
   order: 2; /* Altera a ordem para 1, colocando-a antes do conteúdo de texto */
   max-width: 100%;
-  height: auto; 
+  height: auto;
   overflow: hidden; /* Oculta o conteúdo que excede os limites da div */
   direction: rtl; /* Define a direção do conteúdo da direita para a esquerda */
 }
@@ -172,24 +168,24 @@ text-shadow: 0px 2px 4px #0d8aff9d; /* Adiciona uma sombra na parte inferior */
 /* PORQUE SERICELL? */
 
 .porque-titulo {
-display: flex;
-align-items: center;
-justify-content: center;
-margin-top: 40px;
-margin-bottom: 20px;
-font-family: "Salsa", cursive;
-font-weight: 400;
-font-style: normal;
-font-size: 2rem;
-color: #0D8BFF;
-text-shadow: 0px 2px 4px #0d8aff9d; /* Adiciona uma sombra na parte inferior */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: #0d8bff;
+  text-shadow: 0px 2px 4px #0d8aff9d; /* Adiciona uma sombra na parte inferior */
 }
 
 .porque-container {
-display: flex;
-width: 1000px;
-margin: 0 auto;
-margin-bottom: 40px;
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .porque-subcontainer {
@@ -213,14 +209,12 @@ margin-bottom: 40px;
 .porque-subcontainer p {
   font-family: "Crimson Pro", serif;
   font-weight: 400;
-  font-size: 1.0rem;
+  font-size: 1rem;
   margin: 8px 30px 0px 30px;
   color: #485056;
 }
 
-
 /* FIM PORQUE SERICELL? */
-
 
 @media (max-width: 1500px) {
   .text-servico-info {
@@ -233,24 +227,24 @@ margin-bottom: 40px;
 @media (max-width: 1050px) {
   .porque-container {
     width: 800px;
-    }
+  }
 
-    .porque-subcontainer img {
-      width: 100px;
-      height: 100px;
-    }
+  .porque-subcontainer img {
+    width: 100px;
+    height: 100px;
+  }
 
-    .porque-subcontainer h2 {
-      font-weight: 400;
-      font-size: 1.0rem;
-      margin-top: 20px;
-    }
-    
-    .porque-subcontainer p {
-      font-weight: 400;
-      font-size: 0.8rem;
-      margin: 8px 20px 0px 20px;
-    }
+  .porque-subcontainer h2 {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+
+  .porque-subcontainer p {
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin: 8px 20px 0px 20px;
+  }
 }
 @media screen and (max-width: 810px) {
   .servicos-info-card,
@@ -263,7 +257,6 @@ margin-bottom: 40px;
     order: 2; /* Coloca a imagem acima dos textos */
     width: ;
     height: ;
-    
   }
 
   .text-servico-info,
@@ -274,67 +267,63 @@ margin-bottom: 40px;
   .servico-info-img {
     overflow: auto; /* Oculta o conteúdo que excede os limites da div */
   }
-  
+
   .servico-info-img2 {
     overflow: auto; /* Oculta o conteúdo que excede os limites da div */
   }
-  
+
   .servico-info-img img {
     height: 340px;
   }
-  
+
   .servico-info-img2 img {
     height: 340px;
   }
 
-.textp-servico-info2,
-.textp-servico-info {
-font-size: 1rem;
-}
-/*CARDS CIRCULOS */
-.porque-container {
-  flex-wrap: wrap; 
-  justify-content: center;
-}
+  .textp-servico-info2,
+  .textp-servico-info {
+    font-size: 1rem;
+  }
+  /*CARDS CIRCULOS */
+  .porque-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-.porque-subcontainer {
-  width: 50%; 
-  text-align: center;
-}
-.porque-container {
-  width: 470px;
+  .porque-subcontainer {
+    width: 50%;
+    text-align: center;
+  }
+  .porque-container {
+    width: 470px;
   }
   .porque-subcontainer p {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
   }
-
 }
 
 @media (max-width: 480px) {
-.content-frase-page img {
-  width: 120px;
-  height: 120px;
-  margin-left: 30px;
-  margin-top: -180px;
-}
+  .content-frase-page img {
+    width: 120px;
+    height: 120px;
+    margin-left: 30px;
+    margin-top: -180px;
+  }
 
-.servico-info-img img {
-  height: 280px;
-}
+  .servico-info-img img {
+    height: 280px;
+  }
 
-.servico-info-img2 img {
-  height: 280px;
-}
-.porque-subcontainer {
-  width: 100%; /* Define a largura dos subcontêineres para 100% para colocar apenas 1 em uma linha */
-}
-.porque-container {
-  width: 300px;
+  .servico-info-img2 img {
+    height: 280px;
+  }
+  .porque-subcontainer {
+    width: 100%; /* Define a largura dos subcontêineres para 100% para colocar apenas 1 em uma linha */
+  }
+  .porque-container {
+    width: 300px;
   }
   .porque-titulo {
-  font-size: 1.6rem;
-    }
+    font-size: 1.6rem;
+  }
 }
-
-
-
