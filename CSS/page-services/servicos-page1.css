@@ -1,3 +1,5 @@
+/* FRASE ABAIXO DA IMAGEM DO INICIO */
+
 .content-frase-page {
   display: flex;
   align-items: center;
@@ -62,7 +64,7 @@
   text-align: left;
 }
 
-
+/* FIM FRASE ABAIXO DA IMAGEM DO INICIO */
 
 /* INICIO SERVIÇOS */
 
@@ -100,10 +102,7 @@ text-shadow: 0px 2px 4px #0d8aff9d; /* Adiciona uma sombra na parte inferior */
   font-size: 1.1rem;
   max-width: 600px;
 }
-
 /* ------------- FIM CARD 2 -----------*/
-
-
 .servicos-info-card,
 .servicos-info-card2 {
   display: flex;
@@ -124,7 +123,6 @@ text-shadow: 0px 2px 4px #0d8aff9d; /* Adiciona uma sombra na parte inferior */
   font-style: normal;
   font-size: 1.3rem;
 text-shadow: 0px 2px 4px #0d8aff9d; /* Adiciona uma sombra na parte inferior */
-
 }
 
 
@@ -169,6 +167,7 @@ text-shadow: 0px 2px 4px #0d8aff9d; /* Adiciona uma sombra na parte inferior */
 .servico-info-img2 img {
   height: 400px;
 }
+/* FIM SERVIÇOS */
 
 /* PORQUE SERICELL? */
 
@@ -185,7 +184,6 @@ font-size: 2rem;
 color: #0D8BFF;
 text-shadow: 0px 2px 4px #0d8aff9d; /* Adiciona uma sombra na parte inferior */
 }
-
 
 .porque-container {
 display: flex;
@@ -254,12 +252,51 @@ margin-bottom: 40px;
       margin: 8px 20px 0px 20px;
     }
 }
+@media screen and (max-width: 800px) {
+  .servicos-info-card,
+  .servicos-info-card2 {
+    flex-direction: column-reverse; /* Inverte a ordem dos itens para coluna e coloca a imagem acima dos textos */
+  }
 
-@media (max-width: 800px) {
+  .servico-info-img,
+  .servico-info-img2 {
+    order: 2; /* Coloca a imagem acima dos textos */
+    width: ;
+    height: ;
+    
+  }
+
+  .text-servico-info,
+  .text-servico-info2 {
+    order: 1; /* Coloca os textos abaixo da imagem */
+  }
+
+  .servico-info-img {
+    overflow: auto; /* Oculta o conteúdo que excede os limites da div */
+  }
   
+  .servico-info-img2 {
+    overflow: auto; /* Oculta o conteúdo que excede os limites da div */
+  }
+  
+  .servico-info-img img {
+    height: 340px;
+  }
+  
+  .servico-info-img2 img {
+    height: 340px;
+  }
+
+  .titulo-servico-info2,
+.titulo-servico-info {
+font-size: 0.8rem;
 }
 
-
+.textp-servico-info2,
+.textp-servico-info {
+font-size: 1rem;
+}
+}
 
 @media (max-width: 480px) {
 .content-frase-page img {
