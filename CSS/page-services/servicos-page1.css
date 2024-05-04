@@ -287,15 +287,27 @@ margin-bottom: 40px;
     height: 340px;
   }
 
-  .titulo-servico-info2,
-.titulo-servico-info {
-font-size: 0.8rem;
-}
-
 .textp-servico-info2,
 .textp-servico-info {
 font-size: 1rem;
 }
+/*CARDS CIRCULOS */
+.porque-container {
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.porque-subcontainer {
+  width: 50%; 
+  text-align: center;
+}
+.porque-container {
+  width: 470px;
+  }
+  .porque-subcontainer p {
+  margin-bottom: 20px;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -313,4 +325,16 @@ font-size: 1rem;
 .servico-info-img2 img {
   height: 280px;
 }
+.porque-subcontainer {
+  width: 100%; /* Define a largura dos subcontêineres para 100% para colocar apenas 1 em uma linha */
 }
+.porque-container {
+  width: 300px;
+  }
+  .porque-titulo {
+  font-size: 1.6rem;
+    }
+}
+
+
+
