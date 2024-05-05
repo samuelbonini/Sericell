@@ -7,7 +7,7 @@ function menuShow() {
   } else {
     menuMobile.classList.add("open");
     document.querySelector(".icon").src =
-      "Imagens/icons-header/xbar.svg";
+      "../Imagens/icons-header/xbar.svg";
   }
 }
 

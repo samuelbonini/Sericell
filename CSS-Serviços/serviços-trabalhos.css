@@ -1,6 +1,36 @@
+.trabalho-inicio-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Para centralizar horizontalmente */
+  height: 50vh;
+  box-shadow: 0px 4px 8px #1b14144d;
+  overflow: hidden;
+  background-image: url(../Imagens-services/trabalhos-imgs/background-trabalho.png);
+  background-size: cover;
+}
+.trabalho-frase {
+  position: absolute;
+  bottom: 0;
+  width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  background-color: #0d8aff; /* Cor de fundo */
+  clip-path: polygon(50% 0%, 90% 20%, 100% 50%, 90% 80%, 50% 100%, 10% 80%, 0% 50%, 10% 20%); /* Forma com "espinhos" */
+}
 
+.trabalho-frase span {
+  font-family: "Crimson Pro", serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+
+/* INICIO CARDS SERVIÇOS */
 .background-services-page {
-  background-color: #ff0000;
+  background-color: #2b2b2b;
 }
 
 .container-services-page {
@@ -67,5 +97,23 @@ box-shadow: 0px 1px 5px 0px #0d8aff1e;
   color: #fff; /* Cor do subtítulo */
 }
 
-/*
-*/
+/* FIM INICIO CARDS SERVIÇOS */
+
+
+
+@media (max-width: 852px) {
+  .trabalho-frase {
+    max-width: 500px;
+  }
+
+  .trabalho-inicio-container {
+  height: 40vh;
+}
+}
+
+
+@media (max-width: 550px) {
+  .trabalho-frase {
+    max-width: 400px;
+  }
+}
