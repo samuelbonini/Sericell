@@ -9,6 +9,7 @@
 @import url(../CSS-Serviços/background.css);
 @import url(../CSS-Serviços/conteudo-geral.css);
 @import url(../CSS-Serviços/serviços-trabalhos.css);
+@import url(../CSS-Serviços/slide.css);
 
 * {
   padding: 0;
