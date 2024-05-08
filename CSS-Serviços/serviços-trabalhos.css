@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center; /* Para centralizar horizontalmente */
-  height: 60vh;
+  height: 500px;
   overflow: hidden;
   background-image: url(../Imagens-services/trabalhos-imgs/background-trabalho.png);
   max-width: auto;
@@ -41,8 +41,14 @@
   margin: 0 auto;
   z-index: 1;
   padding: 30px;
-
 }
+
+.trabalho-frase img {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+
 
 .trabalho-frase h1 {
     display: flex;
@@ -51,7 +57,9 @@
     font-weight: 500;
   color: #fff;
   margin-left: 30px;
+  margin-top: 30px;
   max-width: 300px;
+
 }
 
 .trabalho-frase span {
@@ -63,13 +71,8 @@
   margin-left: 30px;
   color: #0d8aff;
   max-width: 400px;
-
 }
 
-.trabalho-frase img {
-  width: 100px;
-  height: 100px;
-}
 
 /* INICIO CARDS SERVIÇOS */
 .background-services-page {
