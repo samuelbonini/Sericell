@@ -9,14 +9,16 @@
 }
 
 .titulo-galeria-de-imagens {
+  position: relative;
   display: flex;
 justify-content: center;
 margin-bottom: 30px;
-font-family: "Salsa", cursive;
-font-weight: 100;
+font-family: "Crimson Pro", serif;
+font-weight: 600;
 font-style: italic;
 font-size: 1.6rem;
 color: #0f1a22;
+text-decoration: underline #0D8BFF;
 }
 
 .slider {
@@ -24,7 +26,7 @@ color: #0f1a22;
   width: 800px;
   height: 400px;
   overflow: hidden;
-  border: 10px solid #0f1a22;
+  border: 4px solid #0f1a22;
   border-radius: 10px;
 }
 
@@ -91,10 +93,7 @@ color: #0f1a22;
   border-radius: 10px;
   cursor: pointer;
   transition: 1s;
-
 }
-
-
 
 .navigation-auto div:not(:last-child) {
   margin-right: 40px;
@@ -149,11 +148,12 @@ color: #0f1a22;
     
     .manual-navigation {
       width: 400px;
-      margin-top: -40px;
+      margin-top: -40px;    
     }
     .container-slider {
       height: 360px;
       padding: 30px;
+      margin-bottom: 30px;
     }
 }
 
@@ -181,3 +181,31 @@ color: #0f1a22;
       padding: 30px;
     }
 }
+
+@media (max-width: 400px) {
+  .slider {
+    width: 320px;
+    height: 240px;
+    }
+    
+    .slides {
+      width: 400%;
+      height: 240px;
+    }
+    
+    .slide img {
+      width: 320px;
+    }
+    
+    .manual-navigation {
+      width: 320px;
+      margin-top: -40px;
+    }
+    .container-slider {
+      height: 300px;
+      padding: 30px;
+      margin-bottom: 80px;
+
+    }
+}
+
