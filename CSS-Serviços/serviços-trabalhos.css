@@ -31,6 +31,7 @@
   background-color: #2b2b2b;
  border-left: 2px solid #0d8aff;
  border-right: 2px solid #0d8aff;
+ box-shadow: 0px 2px 4px #0d8aff9d;
   height: 800px;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
@@ -74,6 +75,7 @@
   margin-left: 30px;
   color: #0d8aff;
   max-width: 400px;
+  text-shadow: 0px 2px 4px #0d8aff9d; /* Adiciona uma sombra na parte inferior */
 }
 
 
@@ -96,6 +98,8 @@
   font-size: 1.8rem;
   display: flex;
   justify-content: start;
+  text-align: start;
+  text-shadow: 0px 2px 4px #0d8aff9d; /* Adiciona uma sombra na parte inferior */
 }
 
 .blocos-services {
