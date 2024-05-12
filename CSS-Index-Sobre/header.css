@@ -83,7 +83,6 @@ nav ul li:hover {
 }
 
 .gradiente-animado {
-  
   background-image: linear-gradient(to right, rgb(0, 162, 255) 0%, rgb(0, 162, 255) 25%, rgb(255, 238, 0) 50%, rgb(255, 238, 0) 75%, rgb(255, 238, 0) 0%,  rgb(0, 162, 255) 100%, rgb(0, 162, 255) 75%, rgb(255, 238, 0) 50%, rgb(255, 238, 0) 25%, rgb(255, 238, 0) 0%);
   background-size: 200% 100%; 
   color: transparent; 
