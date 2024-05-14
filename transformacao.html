@@ -10,40 +10,45 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Salsa&display=swap" rel="stylesheet">
 
-  <link rel="shortcut icon" href="../Imagens/icons-header/FAVICON-SERICELL.svg" type="image/x-icon">
-
-  <link rel="stylesheet" href="../CSS/global.css">
-  
+  <link rel="shortcut icon" href="Imagens/icons-header/FAVICON-SERICELL.svg" type="image/x-icon">
+  <link rel="stylesheet" href="CSS-Index-Sobre/global.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
 
 </head>
-
 <body>
-
   <header>
     <nav class="nav-bar">
       <div class="logo">
-        <h1><img src="../Imagens/icons-header/sericell logo peq.svg" alt="logo"></h1>
+        <h1><a href="index.html"><img src="Imagens/icons-header/sericell logo peq.svg" alt="logo"></a></h1>
       </div>
 
       <div class="nav-list">
         <ul>
           <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
-          <li class="nav-item"><a href="serviços.html" class="nav-link selecionado">Serviços</a></li>
+          <li class="nav-item selecionado dropdown-content"><a href="serviços.html" class="nav-link">Serviços</a>
+            <ul class="dropdown">
+              <li><a href="arquitetura.html">Arquitetura Externa</a></li>
+              <li  class="selecionado"><a href="transformacao.html">Transformação Visual</a></li>
+              <li><a href="sinalizacao.html">Sinalização</a></li>
+              <li><a href="impressao.html">Impressão</a></li>
+              <li><a href="brilho-moderno.html">Brilho Moderno</a></li>
+            </ul>
+          </li>
           <li class="nav-item"><a href="https://www.placasimobiliarias.com.br/" target="_blank" class="nav-link"><span class="gradiente-animado">Placas Imobilárias</span></a></li>
         </ul>
       </div>
       <div class="login-button">
         <a href="#">
           <button>
-            <img src="../Imagens/icons-redes/whatsapp.svg" alt="WhatsApp Icon">
+            <img src="Imagens/icons-redes/whatsapp.svg" alt="WhatsApp Icon">
             <span>Contato</span>
           </button>
         </a>
       </div>
 
       <div class="mobile-menu-icon">
-        <button onclick="menuShow()"><img class="icon" src="../Imagens/icons-header/Navegação-icon.svg" alt="icon navegação"></button>
+        <button onclick="menuShow()"><img class="icon" src="Imagens/icons-header/Navegação-icon.svg" alt="icon navegação"></button>
       </div>
     </nav>
 
@@ -51,13 +56,22 @@
       <ul>
         <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
         <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
-        <li class="nav-item"><a href="serviços.html" class="nav-link selecionado">Serviços</a></li>
+        <li class="nav-item dropdown-content"><a href="serviços.html" class="nav-link">Serviços</a></li>
+        <li class="nav-item dropdown-content"><a href="#" class="nav-link">Mais</a>
+          <ul class="dropdown">
+            <li><a href="arquitetura.html">Arquitetura Externa</a></li>
+            <li  class="selecionado"><a href="transformacao.html">Transformação Visual</a></li>
+            <li><a href="sinalizacao.html">Sinalização</a></li>
+            <li><a href="impressao.html">Impressão</a></li>
+            <li><a href="brilho-moderno.html">Brilho Moderno</a></li>
+          </ul>
+        </li>
         <li class="nav-item"><a href="https://www.placasimobiliarias.com.br/" target="_blank" class="nav-link"><span class="gradiente-animado">Placas Imobilárias</span></a></li>
       </ul>
       <div class="login-button">
         <a href="#">
           <button>
-            <img src="../Imagens/icons-redes/whatsapp.svg" alt="WhatsApp Icon">
+            <img src="Imagens/icons-redes/whatsapp.svg" alt="WhatsApp Icon">
             <span>Contato</span>
           </button>
         </a>
@@ -65,21 +79,23 @@
     </div>
   </header>
 
-  <main class="services-img">
-    <div class="services-index">
-      <h2>SERVIÇOS</h2>
-      <span>Descubra nossa ampla gama de serviços especializados em comunicação visual e muito mais. Desde fachadas e toldos até adesivos, plotagem, letras em LED e quadros de neon, troféus, cartões de visita, placas, sinalização e muito mais, estamos prontos para transformar sua visão em realidade.</span>
+  <main class="background-cor">
+    <div class="trabalho-inicio-container">
+      <div class="trabalho-frase">
+        <div>
+          <h1>Transformação Visual</h1>
+          <span>Transformamos sua marca em um espetáculo visual com criatividade e excelência.</span>
+        </div>
+      </div>
     </div>
   </main>
 
-
-
   <section class="background-services-page">
     <div class="container-services-page">
-      <h1 class="titulo-services-page">Arquitetura Externa →</h1>
+      <h1 class="titulo-services-page">Nossos Serviços</h1>
       <div class="blocos-services">
         <div class="bloco-service">
-          <img src="../Imagens-services/fachada.png" alt="Descrição da imagem">
+          <img src="Imagens-services/fachada.png" alt="Imagem serviço fachada">
           <div class="texto-service">
             <h2>Fachada</h2>
             <p>A fachada é o cartão de visitas do seu negócio. Torne-a memorável, marcante e única com a expertise da nossa equipe. Oferecemos uma variedade de designs exclusivos, desde fachadas com iluminação em LED até aquelas com letras em relevo e muito mais.</p>
@@ -87,60 +103,119 @@
         </div>
         <!-- --------- -->
         <div class="bloco-service">
-          <img src="../Imagens-services/toldo.png" alt="Descrição da imagem">
-          <div class="texto-service">
-            <h2>Toldo</h2>
-            <p>Toldos e coberturas não apenas agregam estilo ao seu espaço exterior, mas também oferecem proteção contra os elementos, criando um ambiente confortável e convidativo. Destacamos-nos na fabricação, onde cada detalhe é meticulosamente trabalhado em nossa metalúrgica. Desde a escolha dos materiais até a montagem final</p>
-          </div>
-        </div>
-        <!-- --------- -->
-        <div class="bloco-service">
-          <img src="../Imagens-services/cobertura.png" alt="Descrição da imagem">
+          <img src="Imagens-services/cobertura.png" alt="Imagem serviço cobertura">
           <div class="texto-service">
             <h2>Cobertura</h2>
-            <p>Oferecemos adesivagem personalizada de alta qualidade para fachadas, vitrines, móveis e equipamentos. Com nossa equipe qualificada e tecnologia de ponta, transformamos sua visão em realidade, garantindo resultados excepcionais e uma imagem profissional para o seu negócio.</p>
+            <p>Uma cobertura bem projetada é a garantia de conforto e proteção para seus clientes. Conte com nossa experiência para criar coberturas que combinem funcionalidade e estilo. Dos mais simples aos mais elaborados designs, estamos preparados para superar suas expectativas e tornar sua área externa um verdadeiro diferencial.</p>
           </div>
         </div>
         <!-- --------- -->
         <div class="bloco-service">
-          <img src="../Imagens-services/lona.png" alt="Descrição da imagem">
-          <div class="texto-service">
-            <h2>Lona</h2>
-            <p>A fachada é o cartão de visitas do seu negócio. Torne-a memorável, marcante e única com a expertise da nossa equipe. Oferecemos uma variedade de designs exclusivos, desde fachadas com iluminação em LED até aquelas com letras em relevo e muito mais.</p>
-          </div>
-        </div>
-        <!-- --------- -->
-        <div class="bloco-service">
-          <img src="../Imagens-services/tote.png" alt="Descrição da imagem">
+          <img src="Imagens-services/tote.png" alt="Imagem serviço Totem">
           <div class="texto-service">
             <h2>Totem</h2>
-            <p>A fachada é o cartão de visitas do seu negócio. Torne-a memorável, marcante e única com a expertise da nossa equipe. Oferecemos uma variedade de designs exclusivos, desde fachadas com iluminação em LED até aquelas com letras em relevo e muito mais.</p>
+            <p>O totem é o ponto focal que direciona o olhar e atrai a atenção. Com nossa expertise em design e tecnologia, criamos totens que não apenas informam, mas também impressionam. Explore opções como totems com iluminação em LED para uma presença ainda mais marcante, e eleve sua identidade visual a outro nível.</p>
+          </div>
+        </div>
+         <!-- --------- -->
+        <div class="bloco-service">
+          <img src="Imagens-services/toldo.png" alt="Imagem serviço toldo">
+          <div class="texto-service">
+            <h2>Toldo Fixo</h2>
+            <p>Eleve sua entrada com elegância permanente. Nossos toldos fixos oferecem requinte personalizado para sua fachada, destacando-se em qualquer clima com uma variedade de estilos clássicos e modernos.</p>
+          </div>
+        </div>
+  <!-- --------- -->
+        <div class="bloco-service">
+          <img src="Imagens-services/lona.png" alt="Imagem serviço toldo">
+          <div class="texto-service">
+            <h2>Toldo Recolhível</h2>
+            <p>Controle o ambiente da sua entrada com facilidade. Nossos toldos recolhíveis oferecem estilo e funcionalidade incomparáveis, adaptando-se às suas necessidades e proporcionando flexibilidade de design para sua fachada.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
+<section id="container-galeria"> 
+  <div class="container">
+    <div class="titulo-galeria">
+    <h1>Galeria de Imagens</h1>
+  </div>
+      <div class="slider-wrapper">
+      <button id="prev-slide" class="slide-button material-symbols-rounded">chevron_left</button>
+      <div class="image-list">
+        <img src="Imagens-fachada/img1.png" alt="img1" class="image-item">
+        <img src="Imagens-fachada/img2.png" alt="img2" class="image-item">
+        <img src="Imagens-fachada/img3.png" alt="img3" class="image-item">
+        <img src="Imagens-fachada/img4.png" alt="img4" class="image-item">
+        <img src="Imagens-fachada/img5.png" alt="img5" class="image-item">
+        <img src="Imagens-fachada/img6.png" alt="img6" class="image-item">
+        <img src="Imagens-fachada/img7.png" alt="img7" class="image-item">
+        <img src="Imagens-fachada/img8.png" alt="img8" class="image-item">
+        <img src="Imagens-fachada/img9.png" alt="img9" class="image-item">
+        <img src="Imagens-fachada/img10.png" alt="img10" class="image-item">
+      </div>
+      <button id="next-slide" class="slide-button material-symbols-rounded">chevron_right</button>
+    </div>
+    <div class="slider-scrollbar">
+      <div class="scrollbar-track">
+        <div class="scrollbar-thumb">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
 
+<!-- FIM GALERIA -->
+
+<section class="endereco-contato">
+  <div class="container-contato">
+        <div>
+          <h1 class="contato-titulo">Endereço <span class="span-contato">&</span> Contato</h1>
+  
+          <div class="contato-info">
+            <h2>Contato:</h2>
+            <ul class="lista-contato">
+              <li><img src="Imagens/icons-redes/telefone.svg" alt="icon"><a href="#">(51) 37225699</a></li>
+              <li><img src="Imagens/icons-redes/whatsapp.svg" alt="icon"><a href="#">(51) 992372649</a></li>
+              <li><img src="Imagens/icons-redes/Email.svg" alt="icon"><a href="mailto:sericell@yahoo.com.br">sericell@yahoo.com.br</a></li>
+            </ul>
+          </div>
+  
+          <div class="endereco-info">
+            <h2>Endereço:</h2>
+            <ul class="lista-endereco">
+              <li>
+                <img src="Imagens/icons-redes/mapa.svg" alt="icon"><a href="https://maps.app.goo.gl/M8uY3YCiCxvRiDvF6" target="_blank" class="mapa-sobre">R. Ricardo Schaurich, 1613 - Santa Helena, Cachoeira do Sul - RS, 96503-762</a>
+              </li>
+            </ul>
+  
+            <div class="mapa">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.2588813179614!2d-52.92082466979063!3d-30.02942996922685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9504a782ce4010dd%3A0xc772def8573b38a6!2zU2VyaWNlbGwgQ29tdW5pY2HDp8OjbyBWaXN1YWwgZSBTaW5hbGl6YcOnw6Nv!5e0!3m2!1spt-BR!2sbr!4v1713487092978!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+</section>
 
   <footer class="background-footer">
     <div class="footer-container">
       <div class="footer-sobre">
         <h2 class="text-footer">Entre em Contato</h2>
         <a href="#">
-          <p class="text-somos"><img class="icons-footer" src="../Imagens/icons-redes/telefone.svg" alt="">(51) 37225699</p>
+          <p class="text-somos"><img class="icons-footer" src="Imagens/icons-redes/telefone.svg" alt="">(51) 37225699</p>
         </a>
         <a href="#">
-          <p class="text-somos"><img class="icons-footer" src="../Imagens/icons-redes/whatsapp.svg" alt="">(51) 992372649</p>
+          <p class="text-somos"><img class="icons-footer" src="Imagens/icons-redes/whatsapp.svg" alt="">(51) 992372649</p>
         </a>
         <a href="mailto:sericell@yahoo.com.br">
-          <p class="text-somos"><img class="icons-footer" src="../Imagens/icons-redes/Email.svg" alt="">sericell@yahoo.com.br</p>
+          <p class="text-somos"><img class="icons-footer" src="Imagens/icons-redes/Email.svg" alt="">sericell@yahoo.com.br</p>
         </a>
         <a href="https://maps.app.goo.gl/M8uY3YCiCxvRiDvF6" target="_blank">
-          <p class="text-somos"><img class="icons-footer" src="../Imagens/icons-redes/mapa.svg" alt="">R. Ricardo Schaurich, 1613 - Santa Helena</p>
+          <p class="text-somos"><img class="icons-footer" src="Imagens/icons-redes/mapa.svg" alt="">R. Ricardo Schaurich, 1613 - Santa Helena</p>
         </a>
       </div>
 
@@ -157,17 +232,15 @@
       <div class="footer-conect">
         <h2 class="text-footer">Conecte-se conosco</h2>
         <p class="footer-redesocial">
-          <a href="https://www.instagram.com/sericellmultimidia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img src="../Imagens/icons-redes/insta.svg" alt="Instagram"></a>
-          <a href="https://www.facebook.com/sericell" target="_blank"><img src="../Imagens/icons-redes/face.svg" alt="Facebook"></a>
+          <a href="https://www.instagram.com/sericellmultimidia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img src="Imagens/icons-redes/insta.svg" alt="Instagram"></a>
+          <a href="https://www.facebook.com/sericell" target="_blank"><img src="Imagens/icons-redes/face.svg" alt="Facebook"></a>
         </p>
       </div>
     </div>
 
-    <span class="footer-span">©2024 por Sericell Multimidia Visual - 00617395000176. </span>
+    <span class="footer-span">©2024 por Sericell Multimidia Visual - 00617395000176.</span>
   </footer>
 
-  <script src="../script.js"></script>
-
+  <script src="script.js" defer></script>
 </body>
-
 </html>
