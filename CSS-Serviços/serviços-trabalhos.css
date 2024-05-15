@@ -9,7 +9,7 @@
   height: 270px;
   padding: 30px;
   max-width: auto;
-  background-image: url(../Imagens-services/Group\ 11.png);
+  background-image: url(../Imagens-arquitetura/fundo-arquitetura.png);
   background-size: cover;
   background-repeat: no-repeat;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%); /* Define o recorte com movimento */

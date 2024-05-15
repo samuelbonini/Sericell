@@ -144,7 +144,7 @@ h1 a:hover {
   max-width: 100%;
   height: auto;
   overflow: hidden; /* Oculta o conteúdo que excede os limites da div */
-  direction: rtl; /* Define a direção do conteúdo da direita para a esquerda */
+  direction: rt1; /* Define a direção do conteúdo da direita para a esquerda */
 }
 
 .servico-info-img2 {
@@ -153,7 +153,7 @@ h1 a:hover {
   max-width: 100%;
   height: auto;
   overflow: hidden; /* Oculta o conteúdo que excede os limites da div */
-  direction: rtl; /* Define a direção do conteúdo da direita para a esquerda */
+  direction: rt2; /* Define a direção do conteúdo da direita para a esquerda */
 }
 
 .servico-info-img img {
