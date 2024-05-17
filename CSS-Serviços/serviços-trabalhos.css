@@ -9,11 +9,28 @@
   height: 270px;
   padding: 30px;
   max-width: auto;
-  background-image: url(../Imagens-arquitetura/fundo-arquitetura.png);
   background-size: cover;
   background-repeat: no-repeat;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%); /* Define o recorte com movimento */
 }
+
+/*Imagem de fundo das paginas*/
+.background-arquitetura {
+  background-image: url(../Imagens-arquitetura/fundo-arquitetura.png);
+}
+.background-transfor {
+  background-image: url(../Imagens-transformacao/fundo-transform.png);
+}
+.background-sinalizacao {
+  background-image: url(../Imagens-sinalizacao/fundo-index.png);
+}
+.background-impressao {
+  background-image: url(../Imagens-transformacao/fundo-transform.png);
+}
+.background-brilho {
+  background-image: url(../Imagens-transformacao/fundo-transform.png);
+}
+/*Imagem de fundo das paginas*/
 
 .trabalho-frase {
   display: flex;
