@@ -25,10 +25,10 @@
   background-image: url(../Imagens-sinalizacao/fundo-index.png);
 }
 .background-impressao {
-  background-image: url(../Imagens-transformacao/fundo-transform.png);
+  background-image: url(../Imagens-impressao/impressao-background.png);
 }
 .background-brilho {
-  background-image: url(../Imagens-transformacao/fundo-transform.png);
+  background-image: url(../Imagens-brilhomoderno/background-brilho.png);
 }
 /*Imagem de fundo das paginas*/
 
@@ -111,6 +111,35 @@ box-shadow: 0px 1px 5px 0px #0d8aff1e;
   box-shadow: 0px 1px 5px 0px #0d8aff1e;
   border-radius: 5px;
 }
+
+
+/* CSS APENAS PARA ABA SERVIÇOS BRILHO MODERNO */
+
+.blocos-services-brilho {
+  animation: neon 2s ease-in-out infinite alternate;
+
+}
+
+.blocos-services-brilho h2 {
+  animation: neon 2s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+  0% { box-shadow: 0 0 3px rgba(248, 229, 63, 0.8); }
+  50% { box-shadow: 0 0 5px rgba(13, 139, 255, 0.8); }
+  100% { box-shadow: 0 0 3px rgba(15, 26, 34, 0.8); }
+}
+
+.text-brilhomoderno-serv {
+  max-width: 300px;
+}
+.bloco-service-brilho img {
+  width: 300px; /* Para ocupar toda a largura do bloco */
+height: 200px;
+}
+
+/* FIM CSS APENAS PARA ABA SERVIÇOS BRILHO MODERNO */
+
 
 .texto-service h2 {
   padding: 10px;
