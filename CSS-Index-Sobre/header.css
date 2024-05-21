@@ -32,7 +32,6 @@ padding: 10px;
   color: #F8E53F;
 }
 
-
 ul li ul.dropdown li {
   display: block;
 }
@@ -46,11 +45,8 @@ ul li ul.dropdown {
 ul li:hover ul.dropdown {
   display: block;
 }
+
 /* FIM DROP DOWN MENU */
-
-
-
-
 
 .nav-bar {
   display: flex;
