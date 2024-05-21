@@ -35,24 +35,11 @@
 
 /* EFEITOS SPAN DO TITULO */
 .gradiente-animado-subtext {
-  background-image: linear-gradient(to bottom, #0D8BFF, #4cbcfd, #9fbbd6);
+  background-image: linear-gradient(to bottom, #0D8BFF, #60c2fc, #9fbbd6);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #fff;
-  overflow: hidden; /* Esconde o texto excedente */
-            white-space: nowrap; /* Impede quebra de linha */
-            animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
-}
-
-@keyframes typing {
-  from { width: 0; }
-  to { width: 100%; }
-}
-
-@keyframes blink-caret {
-  from, to { border-color: transparent; }
-  50% { border-color: #0D8BFF; }
 }
 
 /* FIM EFEITOS SPAN DO TITULO */
