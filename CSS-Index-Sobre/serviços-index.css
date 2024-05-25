@@ -24,14 +24,17 @@
   width: calc(50% - 20px); /* 50% do tamanho menos a margem entre eles */
 }
 
+.metalurgica-serv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Estilo para o subtitulo */
 .servico .subtitulo {
   margin-top: 30px;
   text-align: left; /* Alinha o texto no início */
-  
 }
-
-
 
 .subtitulo {
   font-family: "Crimson Pro", serif;
@@ -108,15 +111,11 @@
 }
 
 .botao-1 span {
-  color: #3D3D3D;
-}
-
-.icon-saibamais {
-  margin: ;
+  color: #0f1a22;
 }
 
 .botao-2 {
-  background-color: #3d3d3d;
+  background-color: #0f1a22;
   cursor: pointer;
 
 }

@@ -1,6 +1,6 @@
 header {
-  background-color: #101518;
-  box-shadow: 0px 3px 4px #46464623;
+  background-color: #0042ff;
+  box-shadow: 0px 3px 4px #0044ff42;
 }
 /* DROP DOWN MENU */
 .dropdown-content {
@@ -9,6 +9,7 @@ header {
 
 .dropdown-content ul {
   background: #101518;
+  border-radius: 5px;
 }
 
 .dropdown-content ul li {
@@ -20,7 +21,7 @@ header {
   display: block;
 padding: 10px;
   border-radius: 5px;
-  color: #0D8BFF;
+  color: #ffffff;
   text-decoration: none;
   background: #101518;
   text-align: center;
@@ -89,7 +90,7 @@ ul li:hover ul.dropdown {
   font-family: "Salsa", cursive;
   border: none;
   box-shadow: 0px 1px 5px 0px #0d8aff1e;
-  background-color: #3d3d3d;
+  background-color: #0f1a22;;;
   padding: 8px 10px;
   border-radius: 2px;
   cursor: pointer;
@@ -128,7 +129,7 @@ nav ul li:hover {
 }
 
 .gradiente-animado {
-  background-image: linear-gradient(to right, rgb(0, 162, 255) 0%, rgb(0, 162, 255) 25%, rgb(255, 238, 0) 50%, rgb(255, 238, 0) 75%, rgb(255, 238, 0) 0%,  rgb(0, 162, 255) 100%, rgb(0, 162, 255) 75%, rgb(255, 238, 0) 50%, rgb(255, 238, 0) 25%, rgb(255, 238, 0) 0%);
+  background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 25%, rgb(255, 238, 0) 50%, rgb(255, 238, 0) 75%, rgb(255, 238, 0) 0%,  rgb(255, 255, 255) 100%, rgb(255, 255, 255) 75%, rgb(255, 238, 0) 50%, rgb(255, 238, 0) 25%, rgb(255, 238, 0) 0%);
   background-size: 200% 100%; 
   color: transparent; 
   background-clip: text; 
@@ -145,14 +146,7 @@ nav ul li:hover {
   }
 }
 
-
-
-
-
-
-
-
-@media screen and (max-width: 853px) {
+@media screen and (max-width: 860px) {
   .nav-bar {
     padding: 1.2rem 1.2rem;
   

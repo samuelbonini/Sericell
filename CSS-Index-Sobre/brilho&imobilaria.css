@@ -23,7 +23,7 @@
 }
 
 .moderno-text {
-  color: #0d8bff;
+  color: #0042ff;
   font-size: 2rem;
 }
 
@@ -52,29 +52,6 @@
 }
 
 /* Estilo para os botões */
-
-.brilho-button {
-  display: flex;
-  justify-content: start;
-}
-
-.botao-1 {
-  background-color: #e8f4ff;
-  cursor: pointer;
-}
-
-.botao-1 span {
-  color: #3d3d3d;
-}
-
-.botao-2 {
-  background-color: #3d3d3d;
-  cursor: pointer;
-}
-
-.botao-2 span {
-  color: #fff;
-}
 
 .brilho-button button {
   display: inline-flex;
@@ -124,28 +101,6 @@
   font-weight: 400;
   font-style: normal;
   font-size: 22px;
-}
-
-/* botões */
-
-.imobilaria-button {
-  margin: 30px 0px 0px 0px;
-}
-
-.botao-1 {
-  background-color: #e8f4ff;
-}
-
-.botao-1 a {
-  color: #13191d;
-}
-
-.botao-2 {
-  background-color: #3d3d3d;
-}
-
-.botao-2 a {
-  color: #fff;
 }
 
 .imobilaria-button button {

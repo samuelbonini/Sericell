@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   background-image: url(../Imagens/icons-header/fundo-header.png);
-
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,7 +34,7 @@
 
 /* EFEITOS SPAN DO TITULO */
 .gradiente-animado-subtext {
-  background-image: linear-gradient(to bottom, #0D8BFF, #60c2fc, #9fbbd6);
+  background-image: linear-gradient(to bottom, #0042ff, #3369fd, #00FFE4);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
