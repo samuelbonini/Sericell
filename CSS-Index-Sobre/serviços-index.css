@@ -43,13 +43,13 @@
   font-size: 1.6rem;
   text-shadow: 0px 2px 4px #0d8aff9d;
   text-decoration: none;
-  color: #0D8BFF;
+  color: #0042ff;
   transition: 0.4s;
 }
 
 .subtitulo:hover {
-  color: #0dc7ff; /* Cor que deseja quando passar o mouse */
-  font-size: 1.8rem; /* Tamanho da fonte aumentado */
+  color: #0dc7ff;
+  font-size: 1.8rem; 
 }
 
 .info-servico {
@@ -63,32 +63,32 @@
 /* Estilo para o conteúdo */
 .servico .conteudo {
   display: flex;
-  align-items: center; /* Alinha itens verticalmente */
+  align-items: center; 
 }
 
 /* Estilo para o parágrafo */
 .servico .info-servico {
-  margin-bottom: 10px; /* Margem inferior para separar do span */
-  text-align: left; /* Alinha o texto no início */
+  margin-bottom: 10px; 
+  text-align: left; 
 }
 
 /* Estilo para a imagem */
 .servico .icone {
-  width: 100px; /* Largura da imagem */
-  margin-left: 10px; /* Margem esquerda para separar do texto */
-  vertical-align: middle; /* Alinha verticalmente com o texto */
+  width: 100px; 
+  margin-left: 10px; 
+  vertical-align: middle; 
 }
 
 /* Estilo para o span */
 .servico .info {
-  display: block; /* Para que o span ocupe a largura total */
-  color: #919697; /* Cor azul */
+  display: block; 
+  color: #919697; 
   font-family: "Crimson Pro", serif;
   font-weight: 300;
   font-style: italic;
   font-size: 1.1rem;
-  margin-top: -8px; /* Subindo o texto do span */
-  text-align: left; /* Alinha o texto no início */
+  margin-top: -8px; 
+  text-align: left; 
 }
 
 .servico h2 a {
@@ -107,7 +107,6 @@
 .botao-1 {
   background-color: #0042ff;
   cursor: pointer;
- 
 }
 
 .botao-1 span {
@@ -117,7 +116,6 @@
 .botao-2 {
   background-color: #F8E53F;
   cursor: pointer;
-
 }
 
 .botao-2 span {
@@ -134,10 +132,7 @@
   padding: 12px 40px;
   border-radius: 5px;
   margin-right: 30px;
- 
 }
-
-
 
 .servicos-button button span {
   text-decoration: none;
@@ -154,10 +149,10 @@
 /*Frase meio do site LED */
 
 .led {
-  background-color: #13191d;
+  background-color: #0042ff;
   margin: 30px 0px 60px 0px;
-  display: flex; /* Torna o div um flex container */
-  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  display: flex;
+  justify-content: center; 
 }
 
 .frase-led {
@@ -169,8 +164,6 @@
     font-weight: 400;
     font-size: 2rem;
   }
-
-
 
   @media (max-width: 785px) {
 .servicos-container {
@@ -203,15 +196,13 @@
 /* Estilo para o subtitulo */
 .servico .subtitulo {
   margin-top: 20px;
-  margin-bottom: 10px; /* Margem inferior para separar do parágrafo */
-  text-align: left; /* Alinha o texto no início */
+  margin-bottom: 10px; 
+  text-align: left; 
 }
-
-
 
 /* Estilo para a imagem */
 .servico .icone {
-  width: 100px; /* Largura da imagem */
+  width: 100px; /* 
 }
 
 /* Estilo para os botões */

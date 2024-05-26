@@ -1,5 +1,5 @@
 .background-cor {
-  background: linear-gradient(to bottom, #3b3b3b, #2b2b2b);
+  background: linear-gradient(to bottom, #123046, #0f1a22);
 }
 
 .trabalho-inicio-container {
@@ -63,8 +63,7 @@
 
 /* INICIO CARDS SERVIÇOS */
 .background-services-page {
-  background: linear-gradient(to bottom, #2b2b2b 20%, #3b3b3b 80%); /* Gradiente de cima para baixo com pontos de parada personalizados */
-  border-bottom: 2px solid #0d8aff;
+ background: #0f1a22;
 
 }
 
@@ -78,7 +77,7 @@
   font-family: "Crimson Pro", serif;
   font-weight: 600;
   font-optical-sizing: auto;
-  color: #0042ff;
+  color: #F8E53F;
   font-size: 1.8rem;
   display: flex;
   justify-content: center;

@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center; /* Centraliza os cards horizontalmente */
   margin-top: 170px;
- 
 }
 
 .card-destaque {
@@ -20,7 +19,6 @@
   padding: 2px;
   margin-bottom: 40px;
 }
-
 
 .card {
   width: 300px; /* largura do card */
@@ -74,19 +72,14 @@
   font-size: 1.4rem;
   font-style: normal;
   color: #0f1a22;;
-  text-align: center; /* centraliza o texto */
-  width: 100%; /* ajusta a largura do texto para se ajustar ao card */
-  margin-bottom: 30px; /* margem inferior para separar a imagem */
-
+  text-align: center; 
+  width: 100%; 
+  margin-bottom: 30px; 
 }
 
-
-
 @media (max-width: 750px) {
-
   .container-cards {
     margin-top: 150px;
-    
   }
 
   .card-destaque {
