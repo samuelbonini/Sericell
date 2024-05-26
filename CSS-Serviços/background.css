@@ -29,10 +29,16 @@
   font-weight: 500;
   color: #fff;
   z-index: -1; /* Garante que a imagem fique atrás do conteúdo */
-
 }
 
-.services-index span {
+.detalhe-titulo {
+  font-family: "Crimson Pro", serif;
+  font-size: 2.6rem;
+  font-weight: 500;
+  color: #F8E53F;
+}
+
+.text-titulo {
   font-family: "Crimson Pro", serif;
   font-weight: 200;
   font-style: normal;

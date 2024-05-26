@@ -90,16 +90,16 @@ ul li:hover ul.dropdown {
   font-family: "Salsa", cursive;
   border: none;
   box-shadow: 0px 1px 5px 0px #0d8aff1e;
-  background-color: #0f1a22;;;
+  background-color: #F8E53F;
   padding: 8px 10px;
-  border-radius: 2px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
 .login-button button span {
   text-decoration: none;
   margin: 0px 0px 0px 5px;
-  color: #fff;
+  color: #0042ff;
   font-weight: 500;
   font-size: 1.2rem;
 }
@@ -146,7 +146,7 @@ nav ul li:hover {
   }
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 900px) {
   .nav-bar {
     padding: 1.2rem 1.2rem;
   
