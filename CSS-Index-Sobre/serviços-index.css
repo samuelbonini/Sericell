@@ -19,6 +19,13 @@
   font-size: 2.4rem;
 }
 
+.detalhe-titulo-index {
+  font-family: "Crimson Pro", serif;
+  font-size: 2.6rem;
+  font-weight: 500;
+  color: #F8E53F;
+}
+
 /* Estilo para cada serviço */
 .servico {
   width: calc(50% - 20px); /* 50% do tamanho menos a margem entre eles */
@@ -206,20 +213,15 @@
 }
 
 /* Estilo para os botões */
-
-
 .botao-2 span {
   color: #fff;
 }
 
-.servicos-button button {
-  padding: 10px 12px;
-  border-radius: 5px;
-  margin: 8px;
+.servicos-button {
+  margin-bottom: 14px;
 }
 
 .servicos-button button span {
-  font-weight: 300;
   font-size: 1.4rem;
    margin: 0px 0px 0px 5px;
 }
@@ -230,7 +232,6 @@
 }
 
 /*Frase meio do site LED */
-
 
 .led {
   background-color: #13191d;
@@ -247,7 +248,6 @@
   }
 }
 
-
 @media (max-width: 550px) {
   .led {
     background-color: #13191d;
@@ -261,5 +261,23 @@
     padding: 22px 22px;
       font-weight: 400;
       font-size: 1.0rem;
+    }
+    .titulo-servicos {
+      font-size: 1.8rem;
+    }
+
+    .detalhe-titulo-index {
+      font-size: 1.8rem;
+    }
+    .servicos-button button span {
+      font-size: 1.2rem;
+    }
+    .servicos-button img {
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+    .servicos-button button {
+      padding: 12px 26px;
+      margin-bottom: 14px;
     }
 }
