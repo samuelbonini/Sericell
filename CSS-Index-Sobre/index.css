@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../Imagens/icons-header/fundo-header.png);
+  background-image: url(../Imagens/icons-header/fundo-index-1.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -34,7 +34,7 @@
 
 /* EFEITOS SPAN DO TITULO */
 .gradiente-animado-subtext {
-  background-image: linear-gradient(to bottom, #0042ff, #3369fd, #00FFE4);
+  background-image: linear-gradient(180deg, rgba(0,66,255,1) 0%, rgba(41,132,255,1) 20%, rgb(206, 222, 231) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -65,7 +65,7 @@
   width: 140px; /* largura da imagem */
   height: 140px; /* altura da imagem */
   display: block; /* para centralizar a imagem */
-  margin: 0 auto 10px; /* margem inferior e centralização horizontal */
+  margin: 0 auto 0px; /* margem inferior e centralização horizontal */
 }
 
 .card-texto01 {
@@ -139,8 +139,7 @@
   .card-destaque,
   .card {
     width: 280px; /* largura do card */
-    height: auto; /* altura do card */
-    background-color: #e8f4ff; /* cor de fundo do card */
+    height: auto; /* altura do card *
     border-radius: 10px; /* borda arredondada */
     display: inline-block;
     position: relative; /* posição relativa para o número */
@@ -159,9 +158,6 @@
      font-size: 1.2rem;
      margin-bottom: 18px; /* margem inferior para separar a imagem */
    }
-
-
-  
 }
 
 
