@@ -9,8 +9,9 @@
 
 .brilho-text {
   padding: 10px 30px;
-  background-color: #e8f4ff;
-  box-shadow: 1px 1px 5px 0px #0d8aff4f;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px 1px #0d8aff23;
+
   border-radius: 5px;
 }
 
@@ -88,8 +89,8 @@
 
 .imobilaria-container {
   display: flex;
-  background-color: #e8f4ff;
-  box-shadow: 1px 1px 5px 0px #0d8aff4f;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px 1px #0d8aff23;
   max-width: 700px;
   padding: 30px;
   color: #13191d;
