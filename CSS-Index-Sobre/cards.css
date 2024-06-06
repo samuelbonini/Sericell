@@ -10,7 +10,7 @@
   width: 300px; /* largura do card */
   height: auto; /* altura do card */
   background-color: #fff; /* cor de fundo do card */
-  box-shadow: 1px 1px 5px 1px #0d8aff23;
+  box-shadow: 2px 2px 5px 1px #a5d3ff48;
   border-radius: 10px; /* borda arredondada */
   display: inline-block;
   margin-top: -40px;
@@ -25,8 +25,7 @@
   width: 300px; /* largura do card */
   height: auto; /* altura do card */
   background-color: #fff; /* cor de fundo do card */
-  box-shadow: 1px 1px 5px 1px #0d8aff23;
-
+  box-shadow: 2px 2px 5px 1px #a5d3ff5d;
   border-radius: 10px; /* borda arredondada */
   display: inline-block;
   margin: 30px;
