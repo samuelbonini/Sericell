@@ -1,6 +1,7 @@
 header {
-  background-color: #0042ff;
-  box-shadow: 0px 3px 4px #0044ff42;
+  background: rgb(0,66,255);
+  background: linear-gradient(59deg, rgba(0,66,255,1) 0%, rgba(41,132,255,1) 100%);
+  box-shadow: 0px 1px 5px 0px #0d8aff4f;
 }
 /* DROP DOWN MENU */
 .dropdown-content {

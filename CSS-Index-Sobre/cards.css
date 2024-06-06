@@ -9,7 +9,8 @@
 .card-destaque {
   width: 300px; /* largura do card */
   height: auto; /* altura do card */
-  background-color: #e8f4ff; /* cor de fundo do card */
+  background-color: #fff; /* cor de fundo do card */
+  box-shadow: 1px 1px 5px 0px #0d8aff4f;
   border-radius: 10px; /* borda arredondada */
   display: inline-block;
   margin-top: -40px;
@@ -23,7 +24,8 @@
 .card {
   width: 300px; /* largura do card */
   height: auto; /* altura do card */
-  background-color: #e8f4ff; /* cor de fundo do card */
+  background-color: #fff; /* cor de fundo do card */
+  box-shadow: 1px 1px 5px 0px #0d8aff4f;
   border-radius: 10px; /* borda arredondada */
   display: inline-block;
   margin: 30px;
