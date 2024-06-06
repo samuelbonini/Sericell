@@ -10,7 +10,7 @@
 .brilho-text {
   padding: 10px 30px;
   background-color: #fff;
-  box-shadow: 1px 1px 5px 1px #0d8aff23;
+  box-shadow: 0px 2px 5px 1px #cacaca44;
 
   border-radius: 5px;
 }
@@ -90,7 +90,8 @@
 .imobilaria-container {
   display: flex;
   background-color: #fff;
-  box-shadow: 1px 1px 5px 1px #0d8aff23;
+  box-shadow: 0px 2px 5px 1px #cacaca44;
+
   max-width: 700px;
   padding: 30px;
   color: #13191d;
