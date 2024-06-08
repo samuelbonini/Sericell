@@ -1,6 +1,6 @@
 /* Estilo para o contêiner principal */
 .servicos-container {
-  font-family: "Salsa", cursive;
+  font-family: "Crimson Pro", serif;
   text-align: center; /* Centraliza o conteúdo */
   max-width: 1200px; /* Largura máxima para centralização */
   margin: auto; /* Centraliza horizontalmente */
@@ -16,7 +16,8 @@
 .titulo-servicos {
   color: #0f1a22;
   font-weight: 300;
-  font-size: 2.4rem;
+  font-size: 2.8rem;
+  font-weight: 500;
 }
 
 .detalhe-titulo-index {
@@ -172,8 +173,7 @@
   padding: 30px 30px;
   max-width: 1000px;
   text-align: center;
-    font-family: "Salsa", cursive;
-    font-weight: 400;
+  font-family: "Crimson Pro", serif;
     font-size: 2rem;
   }
 
@@ -262,7 +262,7 @@
       font-size: 1.0rem;
     }
     .titulo-servicos {
-      font-size: 1.8rem;
+      font-size: 2.2rem;
     }
 
     .detalhe-titulo-index {
