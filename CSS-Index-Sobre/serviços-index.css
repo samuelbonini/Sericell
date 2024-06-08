@@ -22,7 +22,7 @@
 
 .detalhe-titulo-index {
   font-family: "Crimson Pro", serif;
-  font-size: 2.6rem;
+  font-size: 2.5rem;
   font-weight: 500;
   color: #F8E53F;
 }
@@ -173,8 +173,9 @@
   padding: 30px 30px;
   max-width: 1000px;
   text-align: center;
-  font-family: "Crimson Pro", serif;
+  font-family: "Salsa", serif;
     font-size: 2rem;
+    font-weight: 400;
   }
 
   @media (max-width: 785px) {
@@ -268,6 +269,7 @@
     .detalhe-titulo-index {
       font-size: 1.8rem;
     }
+    
     .servicos-button button span {
       font-size: 1.2rem;
     }

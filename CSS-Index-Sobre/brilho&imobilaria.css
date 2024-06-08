@@ -16,16 +16,16 @@
 }
 
 .titulo-brilho {
-  font-family: "Salsa", cursive;
-  font-weight: 400;
+  font-family: "Crimson Pro", serif;
+  font-weight: 600;
   font-style: normal;
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #13191d;
 }
 
 .moderno-text {
   color: #0042ff;
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 
 .text-brilho {

@@ -110,17 +110,15 @@ article {
 @media (max-width: 450px) {
 
   .inicio-img {
-    height: 24vh;
+    height: 30vh;
   }
 
   .inicio-index h2 {
-    font-size: 2.3rem;
-    margin-top: 0.1rem;
+    font-size: 2.6rem;
   }
 
   .inicio-index span {
-    font-size: 0.9rem;
-    margin-top: 0.1rem;
+    font-size: 1rem;
   }
 
   article {
