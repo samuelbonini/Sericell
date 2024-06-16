@@ -67,10 +67,15 @@
   margin-top: 30px;
 }
 
+.brilho-button button:hover {
+  transform: translateY(-5px);
+  transition: all 0.5s;
+}
+
 .brilho-button button span {
   text-decoration: none;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin: 0px 0px 0px 5px;
 }
 

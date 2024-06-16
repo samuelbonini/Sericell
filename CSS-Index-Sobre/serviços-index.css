@@ -111,7 +111,6 @@
   padding: 30px;
 }
 
-
 .botao-1 {
   background: rgb(0,66,255);
   background: linear-gradient(-189deg, rgba(0,66,255,1) 0%, rgba(41,132,255,1) 100%);
@@ -145,16 +144,21 @@
   margin-right: 30px;
 }
 
+.servicos-button button:hover {
+  transform: translateY(-5px);
+  transition: all 0.5s;
+}
+
 .servicos-button button span {
   text-decoration: none;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 1.6rem;
    margin: 0px 0px 0px 5px;
 }
 
 .servicos-button img {
-  width: 30px;
-  height: 30px;
+  width: 26px;
+  height: 26px;
 }
 
 /*Frase meio do site LED */
@@ -174,7 +178,7 @@
   max-width: 1000px;
   text-align: center;
   font-family: "Salsa", serif;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 400;
   }
 
