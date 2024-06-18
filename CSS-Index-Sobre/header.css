@@ -99,6 +99,11 @@ ul li:hover ul.dropdown {
   cursor: pointer;
 }
 
+.login-button button:hover {
+  transform: translateY(-5px);
+  transition: all 0.5s;
+}
+
 .login-button button span {
   text-decoration: none;
   margin: 0px 0px 0px 5px;
