@@ -11,13 +11,18 @@
   max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%); /* Define o recorte com movimento */
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 80%,
+    50% 100%,
+    0 80%
+  ); /* Define o recorte com movimento */
 }
 
 /*Imagem de fundo das paginas*/
 .background-arquitetura {
   background-image: url(../Imagens-arquitetura/fundo-arquitetura.png);
-
 }
 .background-transfor {
   background-image: url(../Imagens-transformacao/fundo-transform.png);
@@ -42,18 +47,29 @@
   align-items: center;
 }
 
-
 .trabalho-frase h1 {
   text-align: center;
-    font-family: "Crimson Pro", serif;
-    font-size: 2.2rem;
-    font-weight: 600;
-    background-image: linear-gradient(to right, rgb(0, 162, 255) 0%, rgb(0, 162, 255) 25%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 75%, rgb(255, 255, 255) 0%,  rgb(0, 162, 255) 100%, rgb(0, 162, 255) 75%, rgb(255, 255, 255) 50%, rgb(247, 247, 247) 25%, rgb(255, 255, 255) 0%);
-    background-size: 200% 100%; 
-    color: transparent; 
-    background-clip: text; 
-    -webkit-background-clip: text; 
-    animation: animateGradient 4s linear infinite; 
+  font-family: "Crimson Pro", serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 162, 255) 0%,
+    rgb(0, 162, 255) 25%,
+    rgb(255, 255, 255) 50%,
+    rgb(255, 255, 255) 75%,
+    rgb(255, 255, 255) 0%,
+    rgb(0, 162, 255) 100%,
+    rgb(0, 162, 255) 75%,
+    rgb(255, 255, 255) 50%,
+    rgb(247, 247, 247) 25%,
+    rgb(255, 255, 255) 0%
+  );
+  background-size: 200% 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: animateGradient 4s linear infinite;
 }
 
 .trabalho-frase span {
@@ -67,8 +83,7 @@
 
 /* INICIO CARDS SERVIÇOS */
 .background-services-page {
- background: #0f1a22;
-
+  background: #0f1a22;
 }
 
 .container-services-page {
@@ -81,7 +96,7 @@
   font-family: "Crimson Pro", serif;
   font-weight: 600;
   font-optical-sizing: auto;
-  color: #F8E53F;
+  color: #f8e53f;
   font-size: 2.2rem;
   letter-spacing: 0.4px;
   display: flex;
@@ -104,24 +119,22 @@
 
 .bloco-service img {
   width: 220px; /* Para ocupar toda a largura do bloco */
-height: 170px;
-border-radius: 10px 5px 10px 5px;
-box-shadow: 0px 1px 5px 0px #0d8aff1e;
+  height: 170px;
+  border-radius: 10px 5px 10px 5px;
+  box-shadow: 0px 1px 5px 0px #0d8aff1e;
 }
 
 .texto-service {
   max-width: 220px;
-  background-color: #313131;; /* Cor de fundo do texto */
+  background-color: #313131; /* Cor de fundo do texto */
   box-shadow: 0px 1px 5px 0px #0d8aff1e;
   border-radius: 5px;
 }
-
 
 /* CSS APENAS PARA ABA SERVIÇOS BRILHO MODERNO */
 
 .blocos-services-brilho {
   animation: neon 2s ease-in-out infinite alternate;
-
 }
 
 .blocos-services-brilho h2 {
@@ -129,9 +142,15 @@ box-shadow: 0px 1px 5px 0px #0d8aff1e;
 }
 
 @keyframes neon {
-  0% { box-shadow: 0 0 3px rgba(248, 229, 63, 0.8); }
-  50% { box-shadow: 0 0 5px rgba(13, 139, 255, 0.8); }
-  100% { box-shadow: 0 0 3px rgba(15, 26, 34, 0.8); }
+  0% {
+    box-shadow: 0 0 3px rgba(248, 229, 63, 0.8);
+  }
+  50% {
+    box-shadow: 0 0 5px rgba(13, 139, 255, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 3px rgba(15, 26, 34, 0.8);
+  }
 }
 
 .text-brilhomoderno-serv {
@@ -139,16 +158,15 @@ box-shadow: 0px 1px 5px 0px #0d8aff1e;
 }
 .bloco-service-brilho img {
   width: 300px; /* Para ocupar toda a largura do bloco */
-height: 200px;
+  height: 200px;
 }
 
 /* FIM CSS APENAS PARA ABA SERVIÇOS BRILHO MODERNO */
 
-
 .texto-service h2 {
   padding: 10px;
-  font-family: "Salsa", cursive;
-  font-weight: 400;
+  font-family: "Roboto", cursive;
+  font-weight: 500;
   font-style: normal;
   font-size: 1.2rem;
   box-shadow: 0px 0px 3px 0px #0d8aff;
@@ -168,18 +186,16 @@ height: 200px;
 
 /* FIM INICIO CARDS SERVIÇOS */
 
-
-
 @media (max-width: 852px) {
   .trabalho-frase {
     max-width: 500px;
   }
   .trabalho-inicio-container {
-  height: 40vh;
-}
-.trabalho-inicio-container {
-  height: 220px;
-}
+    height: 40vh;
+  }
+  .trabalho-inicio-container {
+    height: 220px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -188,17 +204,23 @@ height: 200px;
   }
 
   .trabalho-inicio-container {
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%); /* Define o recorte com movimento */
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 90%,
+      50% 100%,
+      0 90%
+    ); /* Define o recorte com movimento */
   }
 
   .trabalho-frase h1 {
-      font-size: 1.8rem;
+    font-size: 1.8rem;
   }
-  
+
   .trabalho-frase span {
     display: flex;
     text-align: center;
     justify-content: center;
-    font-size: 1.0rem;
+    font-size: 1rem;
   }
 }

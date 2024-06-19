@@ -2,6 +2,9 @@ header {
   background: rgb(0,66,255);
   background: linear-gradient(59deg, rgba(0,66,255,1) 0%, rgba(41,132,255,1) 100%);
   box-shadow: 0px 1px 5px 0px #0d8aff4f;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 /* DROP DOWN MENU */
@@ -81,7 +84,6 @@ ul li:hover ul.dropdown {
   text-decoration: none;
   font-size: 1.15rem;
   color: #fff;
-  font-weight: 400;
 }
 
 /* BUTTON DO HEADER */
@@ -89,7 +91,9 @@ ul li:hover ul.dropdown {
 .login-button button {
   display: inline-flex;
   align-items: center;
-  font-family: "Salsa", cursive;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   border: none;
   box-shadow: 0px 1px 5px 0px #0d8aff1e;
   background: rgb(248,229,63);

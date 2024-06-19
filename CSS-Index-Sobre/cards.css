@@ -35,8 +35,8 @@
 }
 
 .numero-card {
-  font-family: "Salsa", cursive;
-  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-style: normal;
   color: #0f1a22; /* cor do texto do número */
   font-size: 30px; /* tamanho da fonte */
@@ -71,8 +71,8 @@
 }
 
 .card-texto01 {
-  font-family: "Salsa", cursive;
-  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 1.4rem;
   font-style: normal;
   color: #0f1a22;
