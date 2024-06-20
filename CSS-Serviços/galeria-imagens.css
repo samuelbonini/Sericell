@@ -46,7 +46,7 @@ transform: translateY(-50%);
 }
 
 .slider-wrapper .slide-button:hover {
-  background: #444;
+  background: rgb(81, 122, 233);
 }
 
 
@@ -126,7 +126,7 @@ height: 6px;
   .slider-wrapper .slide-button {
     display: none!important;
   }
-  .slider-wrapper .image-list {`
+  .slider-wrapper .image-list {
   gap: 10px;
 margin-bottom: 15px;
 }
