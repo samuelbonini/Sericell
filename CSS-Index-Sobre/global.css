@@ -1,16 +1,15 @@
 @import url(header.css);
 @import url(index.css);
 @import url(cards.css);
-@import url(serviços-index.css);
+@import url(servicos-index.css);
 @import url(brilho&imobilaria.css);
 @import url(footer.css);
 @import url(sobre.css);
 @import url(endereco-contato.css);
-@import url(../CSS-Serviços/background.css);
-@import url(../CSS-Serviços/conteudo-geral.css);
-@import url(../CSS-Serviços/serviços-trabalhos.css);
-@import url(../CSS-Serviços/galeria-imagens.css);
-
+@import url(../CSS-Servicos/background.css);
+@import url(../CSS-Servicos/conteudo-geral.css);
+@import url(../CSS-Servicos/servicos-trabalhos.css);
+@import url(../CSS-Servicos/galeria-imagens.css);
 
 * {
   padding: 0;

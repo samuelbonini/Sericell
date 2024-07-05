@@ -7,7 +7,7 @@
   padding: 20px; /* Espaçamento interno */
 }
 
-/* Estilo para os grupos de serviços */
+/* Estilo para os grupos de servicos */
 .servicos-grupo {
   display: flex;
   justify-content: space-between;
@@ -195,7 +195,7 @@
   border-radius: 5px;
 }
 
-/* Estilo para os grupos de serviços */
+/* Estilo para os grupos de servicos */
 .servicos-grupo {
   display: flex;
   flex-direction: column;
