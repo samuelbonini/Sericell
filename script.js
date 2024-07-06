@@ -3,7 +3,7 @@ function menuShow() {
   if (menuMobile.classList.contains("open")) {
     menuMobile.classList.remove("open");
     document.querySelector(".icon").src =
-      "Imagens/icons-header/Navegação-icon.svg";
+      "Imagens/icons-header/navegacaomenu-icon.svg";
   } else {
     menuMobile.classList.add("open");
     document.querySelector(".icon").src =
