@@ -16,7 +16,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Roboto&display=swap" rel="stylesheet">
   <!---->
   <link rel="shortcut icon" href="Imagens/icons-header/favicon2.svg" type="image/x-icon">
-  <link rel="stylesheet" href="CSS-Index-Sobre/global.min.css">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="CSS-Index-Sobre/global.css">
 </head>
 
 <body>
@@ -89,19 +90,42 @@
     </div>
   </header>
 
-  <main class="inicio-img">
-    <div class="inicio-index">
-      <h2>SERICELL</h2>
-      <h2>Multimidía Visual</h2>
-      <span class="gradiente-animado-subtext">Comunicação Visual, Metalúrgica e Inovação</span>
+  <section class="slider">
+    <div class="slider-content">
+      <input type="radio" name="btn-radio" id="radio1">
+      <input type="radio" name="btn-radio" id="radio2">
+      <input type="radio" name="btn-radio" id="radio3">
+  
+      <div class="slide-box primeiro">
+        <a href="#"><img class="img-desktop" src="Imagens/icons-slide/slide-desktop.png" alt="slide 1"></a>
+        <a href="#"><img class="img-mobile" src="Imagens/icons-slide/slide-cell.png" alt="slide 1"></a>
+      </div>
+      
+      <div class="slide-box">
+        <a href="#"><img class="img-desktop" src="Imagens/icons-slide/desktop-slide2.png" alt="slide 2"></a>
+        <a href="#"><img class="img-mobile" src="Imagens/icons-slide/mobile-slide2.png" alt="slide 2"></a>
+      </div>
+      
+      <div class="slide-box">
+        <a href="#"><img class="img-desktop" src="Imagens/icons-slide/desktop-slide3.png" alt="slide 3"></a>
+        <a href="#"><img class="img-mobile" src="Imagens/icons-slide/mobile-slide3.png" alt="slide 3"></a>
+      </div>
+  
+      <div class="nav-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+      </div>
+  
+      <div class="nav-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+      </div>
+      
     </div>
-  </main>
-
-  <!--FRASE INDEX-->
-
-  <article>
-    <h1 class="frase-inicio">Transforme sua visão em sucesso tangível. É mais fácil do que você pensa</h1>
-  </article>
+  </section>
+  
 
   <!--CARDS-->
 
@@ -339,7 +363,6 @@
 
     <span class="footer-span">©2024 por Sericell Multimidia Visual - 00617395000176.</span>
   </footer>
-  <script src="script.js"></script>
 </body>
 
 </html>
