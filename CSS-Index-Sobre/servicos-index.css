@@ -282,4 +282,7 @@
       padding: 12px 26px;
       margin-bottom: 14px;
     }
+    .detalhe-titulo-index {
+      font-size: 1.8rem;
+    }
 }

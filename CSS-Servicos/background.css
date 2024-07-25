@@ -20,7 +20,6 @@
   max-width: 700px;
   padding: 30px;
   z-index: -1; /* Garante que a imagem fique atrás do conteúdo */
-
 }
 
 .services-index h2 {
@@ -31,9 +30,8 @@
   z-index: -1; /* Garante que a imagem fique atrás do conteúdo */
 }
 
-.detalhe-titulo {
-  font-family: "Crimson Pro", serif;
-  font-size: 2.6rem;
+.detalhe-titulo-servicos {
+  font-size: 2.4rem;
   font-weight: 500;
   color: #F8E53F;
 }
@@ -45,7 +43,6 @@
   font-size: 1.2rem;
   color: #fff;
   z-index: -1; /* Garante que a imagem fique atrás do conteúdo */
-
 }
 
 @media (max-width: 852px) {
@@ -56,10 +53,15 @@
   .services-index h2 {
     font-size: 2.4rem;
   }
-
-  .services-index span {
+  
+  .detalhe-titulo-servicos {
+  font-size: 1.8rem;
+  }
+  
+  .text-titulo {
     font-size: 1rem;
   }
+  
   .services-img {
   height: 40vh;
 }
@@ -75,7 +77,11 @@
     font-size: 1.8rem;
   }
 
-  .services-index span {
+  .detalhe-titulo-servicos {
+    font-size: 1.4rem;
+    }
+
+  .text-titulo {
     font-size: 0.9rem;
   }
   .services-index {
