@@ -217,6 +217,15 @@
     font-size: 1.8rem;
   }
 
+.bloco-service img {
+  width: 300px; /* Para ocupar toda a largura do bloco */
+  height: 200px;
+}
+
+.texto-service {
+  max-width: 300px;
+}
+
   .trabalho-frase span {
     display: flex;
     text-align: center;
