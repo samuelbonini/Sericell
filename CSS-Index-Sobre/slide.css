@@ -13,12 +13,10 @@ section.slider {
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  width: 500px;
 }
 
 .description p {
   margin: 0;
-  padding: 0;
   background-color: rgba(0, 0, 0, 0.705);
   border-radius: 5px;
   color: white;
@@ -164,7 +162,6 @@ section.slider {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    width: 400px;
   }
   
   .description p {
@@ -186,7 +183,6 @@ section.slider {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    width: 260px;
   }
   
   .description p {
