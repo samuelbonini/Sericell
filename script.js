@@ -14,7 +14,7 @@ function menuShow() {
 /*---slides----*/
 var radio = document.querySelector(".manual-btn");
 var cont = 1;
-document.getElementById("radio1").checked = true;
+//document.getElementById("radio1").checked = true; (aparece a bolinha da primeiro slide selecionado, mas se deixar ativado a galeria de imagens nao roda)
 setInterval(() => {
   proximaImg();
 }, 5000);
